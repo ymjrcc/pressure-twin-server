@@ -1,0 +1,37 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "sqlite"
+}
+
+model Device {
+  code          String            @id
+  name          String
+  description   String
+  status        String
+  thumbnailType String
+  positionX     Float
+  positionY     Float
+  positionZ     Float
+  haloPositionX Float
+  haloPositionY Float
+  haloPositionZ Float
+  haloRadius    Float
+  sortOrder     Int
+  parameters    DeviceParameter[]
+}
+
+model DeviceParameter {
+  id         Int     @id @default(autoincrement())
+  deviceCode String
+  label      String
+  value      String
+  unit       String?
+  status     String?
+  sortOrder  Int
+  device     Device  @relation(fields: [deviceCode], references: [code], onDelete: Cascade)
+
+  @@index([deviceCode, sortOrder])
+}

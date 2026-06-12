@@ -1,7 +1,7 @@
 import Fastify from 'fastify'
 import cors from '@fastify/cors'
 import { healthRoutes } from './routes/health.js'
-// import { deviceRoutes } from './routes/devices.js'
+import { deviceRoutes } from './routes/devices.js'
 // import { inspectionRoutes } from './routes/inspections.js'
 
 export async function buildApp() {
@@ -17,9 +17,9 @@ export async function buildApp() {
     prefix: '/health'
   })
 
-  // await app.register(deviceRoutes, {
-  //   prefix: '/api/devices'
-  // })
+  await app.register(deviceRoutes, {
+    prefix: '/api/devices'
+  })
 
   // await app.register(inspectionRoutes, {
   //   prefix: '/api/inspections'
