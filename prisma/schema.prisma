@@ -45,6 +45,46 @@ model InspectionChecklistItem {
   sortOrder   Int
 
   @@index([deviceCode, sortOrder])
+  @@unique([deviceCode, itemId])
+}
+
+model InspectionReport {
+  id                Int                            @id @default(autoincrement())
+  startedAt         DateTime
+  completedAt       DateTime
+  submittedAt       DateTime
+  deviceCount       Int
+  normalItemCount   Int
+  abnormalItemCount Int
+  deviceRecords     InspectionReportDeviceRecord[]
+
+  @@index([submittedAt])
+}
+
+model InspectionReportDeviceRecord {
+  id               Int                          @id @default(autoincrement())
+  reportId         Int
+  deviceCode       String
+  note             String
+  checkedAt        DateTime?
+  abnormalItemCount Int
+  sortOrder        Int
+  report           InspectionReport             @relation(fields: [reportId], references: [id], onDelete: Cascade)
+  itemResults      InspectionReportItemResult[]
+
+  @@index([reportId, sortOrder])
+  @@index([deviceCode])
+}
+
+model InspectionReportItemResult {
+  id             Int                          @id @default(autoincrement())
+  deviceRecordId Int
+  itemId         String
+  result         String
+  sortOrder      Int
+  deviceRecord   InspectionReportDeviceRecord @relation(fields: [deviceRecordId], references: [id], onDelete: Cascade)
+
+  @@index([deviceRecordId, sortOrder])
 }
 
 model Instrument {
