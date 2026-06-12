@@ -35,3 +35,67 @@ model DeviceParameter {
 
   @@index([deviceCode, sortOrder])
 }
+
+model InspectionChecklistItem {
+  id          Int    @id @default(autoincrement())
+  deviceCode  String
+  itemId      String
+  label       String
+  description String
+  sortOrder   Int
+
+  @@index([deviceCode, sortOrder])
+}
+
+model Instrument {
+  code      String @id
+  name      String
+  sortOrder Int
+
+  @@index([sortOrder])
+}
+
+model ProcessFlowStep {
+  id          Int     @id @default(autoincrement())
+  code        String
+  description String
+  deviceName  String
+  status      String?
+  title       String
+  variant     String?
+  sortOrder   Int
+
+  @@index([sortOrder])
+}
+
+model TelemetryMetricConfig {
+  id              Int                        @id @default(autoincrement())
+  deviceCode      String
+  key             String
+  label           String
+  baseValue       Float
+  max             Float
+  min             Float
+  precision       Int
+  speed           Float
+  unit            String?
+  alarmSuggestion String?
+  alarmText       String?
+  warningText     String?
+  sortOrder       Int
+  thresholds      TelemetryMetricThreshold[]
+
+  @@unique([deviceCode, key])
+  @@index([deviceCode, sortOrder])
+}
+
+model TelemetryMetricThreshold {
+  id                      Int                   @id @default(autoincrement())
+  telemetryMetricConfigId Int
+  direction               String
+  level                   String
+  value                   Float
+  telemetryMetricConfig   TelemetryMetricConfig @relation(fields: [telemetryMetricConfigId], references: [id], onDelete: Cascade)
+
+  @@unique([telemetryMetricConfigId, direction, level])
+}

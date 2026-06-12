@@ -1,6 +1,6 @@
 import type { Device, DeviceParameter } from '@prisma/client'
 import { prisma } from '../db/prisma.js'
-import type { DeviceInfo, DeviceStatus, DeviceThumbnailType, StaticDeviceParameter } from '../../workshopDevices.js'
+import type { DeviceInfo, DeviceStatus, DeviceThumbnailType, StaticDeviceParameter } from '../types/workshop.js'
 
 type DeviceWithParameters = Device & {
   parameters: DeviceParameter[]
