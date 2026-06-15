@@ -4,6 +4,7 @@ import { healthRoutes } from './routes/health.js'
 import { deviceRoutes } from './routes/devices.js'
 import { workshopMetaRoutes } from './routes/workshopMeta.js'
 import { inspectionRoutes } from './routes/inspections.js'
+import { aiRoutes } from './routes/ai.js'
 
 export async function buildApp() {
   const app = Fastify({
@@ -28,6 +29,10 @@ export async function buildApp() {
 
   await app.register(inspectionRoutes, {
     prefix: '/api/inspections'
+  })
+
+  await app.register(aiRoutes, {
+    prefix: '/api/ai'
   })
 
   return app
