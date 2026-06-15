@@ -1,4 +1,5 @@
 import { prisma } from '../db/prisma.js'
+import type { ReportParseContext } from '../types/ai.js'
 import type {
   CreateInspectionReportInput,
   InspectionReportDetail,
@@ -332,6 +333,62 @@ export async function getInspectionReportDetail(reportId: number): Promise<Inspe
   return {
     ...mapReportSummary(report),
     deviceRecords,
+  }
+}
+
+export async function buildInspectionReportParseContext(reportId: number): Promise<ReportParseContext | null> {
+  const report = await getInspectionReportDetail(reportId)
+
+  if (!report) {
+    return null
+  }
+
+  const devices = await prisma.device.findMany({
+    include: {
+      parameters: {
+        orderBy: {
+          sortOrder: 'asc',
+        },
+      },
+    },
+  })
+
+  const deviceMap = new Map(devices.map((device) => [device.code, device]))
+
+  return {
+    report: {
+      id: report.id,
+      startedAt: report.startedAt,
+      completedAt: report.completedAt,
+      submittedAt: report.submittedAt,
+      deviceCount: report.deviceCount,
+      normalItemCount: report.normalItemCount,
+      abnormalItemCount: report.abnormalItemCount,
+    },
+    devices: report.deviceRecords.map((deviceRecord) => {
+      const device = deviceMap.get(deviceRecord.deviceCode)
+
+      return {
+        deviceCode: deviceRecord.deviceCode,
+        deviceName: deviceRecord.deviceName,
+        description: device?.description ?? '',
+        parameters:
+          device?.parameters.map((parameter) => ({
+            label: parameter.label,
+            value: parameter.value,
+            ...(parameter.unit ? { unit: parameter.unit } : {}),
+            ...(parameter.status ? { status: parameter.status } : {}),
+          })) ?? [],
+        ...(deviceRecord.checkedAt !== undefined ? { checkedAt: deviceRecord.checkedAt } : {}),
+        abnormalItemCount: deviceRecord.abnormalItemCount,
+        note: deviceRecord.note,
+        inspectionItems: deviceRecord.itemResults.map((itemResult) => ({
+          itemId: itemResult.itemId,
+          label: itemResult.label,
+          result: itemResult.result,
+        })),
+      }
+    }),
   }
 }
 
