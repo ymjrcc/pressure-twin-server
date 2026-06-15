@@ -1,7 +1,5 @@
--- RedefineTables
-PRAGMA defer_foreign_keys=ON;
-PRAGMA foreign_keys=OFF;
-CREATE TABLE "new_InspectionChecklistItem" (
+-- CreateTable
+CREATE TABLE "InspectionChecklistItem" (
     "id" INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     "deviceCode" TEXT NOT NULL,
     "itemId" TEXT NOT NULL,
@@ -9,13 +7,8 @@ CREATE TABLE "new_InspectionChecklistItem" (
     "description" TEXT NOT NULL,
     "sortOrder" INTEGER NOT NULL
 );
-INSERT INTO "new_InspectionChecklistItem" ("description", "deviceCode", "id", "itemId", "label", "sortOrder") SELECT "description", "deviceCode", "id", "itemId", "label", "sortOrder" FROM "InspectionChecklistItem";
-DROP TABLE "InspectionChecklistItem";
-ALTER TABLE "new_InspectionChecklistItem" RENAME TO "InspectionChecklistItem";
 CREATE INDEX "InspectionChecklistItem_deviceCode_sortOrder_idx" ON "InspectionChecklistItem"("deviceCode", "sortOrder");
 CREATE UNIQUE INDEX "InspectionChecklistItem_deviceCode_itemId_key" ON "InspectionChecklistItem"("deviceCode", "itemId");
-PRAGMA foreign_keys=ON;
-PRAGMA defer_foreign_keys=OFF;
 
 -- CreateTable
 CREATE TABLE "InspectionReport" (
