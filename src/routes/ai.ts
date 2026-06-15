@@ -11,6 +11,7 @@ type ChatBody = {
   model?: string
   thinking?: boolean
   reasoning_effort?: 'low' | 'medium' | 'high' | 'max'
+  response_format?: 'json' | 'text'
   stream?: boolean
 }
 

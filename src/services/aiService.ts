@@ -3,9 +3,12 @@ import type { ChatCompletion } from 'openai/resources/chat/completions'
 import { env } from '../config/env.js'
 
 const DEFAULT_REASONING_EFFORT = 'low'
+const DEFAULT_RESPONSE_FORMAT = 'json'
 const REASONING_EFFORT_VALUES = ['low', 'medium', 'high', 'max'] as const
+const RESPONSE_FORMAT_VALUES = ['json', 'text'] as const
 
 export type ReasoningEffort = (typeof REASONING_EFFORT_VALUES)[number]
+export type ResponseFormat = (typeof RESPONSE_FORMAT_VALUES)[number]
 
 export type ChatInput = {
   message: string
@@ -13,14 +16,20 @@ export type ChatInput = {
   model?: string
   thinking?: boolean
   reasoning_effort?: ReasoningEffort
+  response_format?: ResponseFormat
   stream?: boolean
 }
 
 export type ChatResult = {
   reply: string
+  parsed?: unknown
+  parse_error?: {
+    message: string
+  }
   model: string
   thinking: boolean
   reasoning_effort: ReasoningEffort
+  response_format: ResponseFormat
   usage?: {
     prompt_tokens?: number
     completion_tokens?: number
@@ -59,6 +68,8 @@ export async function createChatCompletion(input: ChatInput): Promise<ChatResult
       messages: buildMessages(normalized.message, normalized.systemPrompt),
       stream: false,
       reasoning_effort: normalized.reasoningEffort,
+      response_format:
+        normalized.responseFormat === 'json' ? { type: 'json_object' } : undefined,
       extra_body: {
         thinking: {
           type: normalized.thinking ? 'enabled' : 'disabled',
@@ -73,12 +84,15 @@ export async function createChatCompletion(input: ChatInput): Promise<ChatResult
     }
 
     const usage = completion.usage
+    const parsedResult = parseReply(reply, normalized.responseFormat)
 
     return {
       reply,
+      ...parsedResult,
       model: completion.model ?? normalized.model,
       thinking: normalized.thinking,
       reasoning_effort: normalized.reasoningEffort,
+      response_format: normalized.responseFormat,
       ...(usage
         ? {
             usage: {
@@ -134,12 +148,19 @@ function normalizeChatInput(input: ChatInput) {
     throw new AiValidationError('reasoning_effort must be one of: low, medium, high, max')
   }
 
+  const responseFormat = input.response_format ?? DEFAULT_RESPONSE_FORMAT
+
+  if (!RESPONSE_FORMAT_VALUES.includes(responseFormat)) {
+    throw new AiValidationError('response_format must be one of: json, text')
+  }
+
   return {
     message: input.message.trim(),
     systemPrompt: input.systemPrompt?.trim() || undefined,
     model: input.model?.trim() || env.deepseekDefaultModel,
     thinking: input.thinking ?? false,
     reasoningEffort,
+    responseFormat,
   }
 }
 
@@ -152,4 +173,27 @@ function buildMessages(message: string, systemPrompt?: string) {
     { role: 'system' as const, content: systemPrompt },
     { role: 'user' as const, content: message },
   ]
+}
+
+function parseReply(reply: string, responseFormat: ResponseFormat) {
+  if (responseFormat !== 'json') {
+    return {}
+  }
+
+  try {
+    return {
+      parsed: JSON.parse(reply),
+    }
+  } catch (error) {
+    const message =
+      error instanceof Error && error.message.trim().length > 0
+        ? error.message
+        : 'Failed to parse reply as JSON'
+
+    return {
+      parse_error: {
+        message,
+      },
+    }
+  }
 }
