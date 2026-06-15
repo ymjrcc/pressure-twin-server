@@ -1,7 +1,10 @@
 import { prisma } from '../db/prisma.js'
 import type {
   CreateInspectionReportInput,
+  InspectionReportDetail,
+  InspectionReportDeviceDetail,
   InspectionReportDeviceRecordInput,
+  InspectionReportListItem,
   InspectionReportItemResultInput,
 } from '../types/inspection.js'
 import type { DeviceCode } from '../types/workshop.js'
@@ -219,6 +222,116 @@ export async function createInspectionReport(input: CreateInspectionReportInput)
 
   return {
     reportId: report.id
+  }
+}
+
+function toTimestamp(date: Date | null | undefined) {
+  return date ? date.getTime() : undefined
+}
+
+function mapReportSummary(report: {
+  abnormalItemCount: number
+  completedAt: Date
+  deviceCount: number
+  id: number
+  normalItemCount: number
+  startedAt: Date
+  submittedAt: Date
+}): InspectionReportListItem {
+  return {
+    abnormalItemCount: report.abnormalItemCount,
+    completedAt: report.completedAt.getTime(),
+    deviceCount: report.deviceCount,
+    id: report.id,
+    normalItemCount: report.normalItemCount,
+    startedAt: report.startedAt.getTime(),
+    submittedAt: report.submittedAt.getTime(),
+  }
+}
+
+export async function listInspectionReports(): Promise<InspectionReportListItem[]> {
+  const reports = await prisma.inspectionReport.findMany({
+    orderBy: {
+      submittedAt: 'desc',
+    },
+  })
+
+  return reports.map(mapReportSummary)
+}
+
+export async function getInspectionReportDetail(reportId: number): Promise<InspectionReportDetail | null> {
+  const report = await prisma.inspectionReport.findUnique({
+    where: {
+      id: reportId,
+    },
+    include: {
+      deviceRecords: {
+        orderBy: {
+          sortOrder: 'asc',
+        },
+        include: {
+          itemResults: {
+            orderBy: {
+              sortOrder: 'asc',
+            },
+          },
+        },
+      },
+    },
+  })
+
+  if (!report) {
+    return null
+  }
+
+  const [devices, checklistItems] = await Promise.all([
+    prisma.device.findMany({
+      select: {
+        code: true,
+        name: true,
+      },
+    }),
+    prisma.inspectionChecklistItem.findMany({
+      select: {
+        deviceCode: true,
+        itemId: true,
+        label: true,
+      },
+    }),
+  ])
+
+  const deviceNameMap = new Map(devices.map((device) => [device.code, device.name]))
+  const checklistLabelMap = new Map(
+    checklistItems.map((item) => [`${item.deviceCode}:${item.itemId}`, item.label]),
+  )
+
+  const deviceRecords: InspectionReportDeviceDetail[] = report.deviceRecords.map((deviceRecord) => {
+    const mappedRecord: InspectionReportDeviceDetail = {
+      abnormalItemCount: deviceRecord.abnormalItemCount,
+      deviceCode: deviceRecord.deviceCode as DeviceCode,
+      deviceName: deviceNameMap.get(deviceRecord.deviceCode) ?? deviceRecord.deviceCode,
+      itemResults: deviceRecord.itemResults.map((itemResult) => ({
+        itemId: itemResult.itemId,
+        label: checklistLabelMap.get(`${deviceRecord.deviceCode}:${itemResult.itemId}`) ?? itemResult.itemId,
+        result: itemResult.result as InspectionReportItemResultInput['result'],
+        sortOrder: itemResult.sortOrder,
+      })),
+      note: deviceRecord.note,
+      sortOrder: deviceRecord.sortOrder,
+    }
+
+    const checkedAt = toTimestamp(deviceRecord.checkedAt)
+
+    if (checkedAt !== undefined) {
+      mappedRecord.checkedAt = checkedAt
+    }
+
+    return mappedRecord
+  })
+
+  return {
+    ...mapReportSummary(report),
+    deviceRecords,
   }
 }
 
