@@ -1,0 +1,3000 @@
+{
+  "generatedAt": "2026-06-17T09:49:23.950Z",
+  "sourceRoot": "knowledge",
+  "documentCount": 15,
+  "chunkCount": 87,
+  "chunks": [
+    {
+      "id": "3bbb1b0e160752184895da24aaca06b757a57392cda3749e4eb5f0666e3085f1",
+      "documentId": "00656961f2f31ce35e34534c705189fe4222a349a4885a097382dfd6f78ed392",
+      "sourcePath": "special-equipment-kb-starter/00_说明/知识库使用与更新说明.md",
+      "fileName": "知识库使用与更新说明.md",
+      "title": "知识库使用与更新说明",
+      "headings": [
+        "知识库使用与更新说明",
+        "信息优先级"
+      ],
+      "sectionTitle": "信息优先级",
+      "content": "发生内容冲突时，建议按照以下顺序处理：\n\n1. 现行法律、行政法规；\n2. 现行部门规章；\n3. 现行特种设备安全技术规范 TSG；\n4. 强制性国家标准；\n5. 推荐性标准、政府解读、行业资料；\n6. 本知识库编写的巡检指南和处置卡。\n\n同一层级存在新旧版本时，以正式发布且已生效的新版本为准。征求意见稿、草案和培训材料不得覆盖现行规范。",
+      "contentWithContext": "文档标题：知识库使用与更新说明\n章节：知识库使用与更新说明 > 信息优先级\n正文：发生内容冲突时，建议按照以下顺序处理：\n\n1. 现行法律、行政法规；\n2. 现行部门规章；\n3. 现行特种设备安全技术规范 TSG；\n4. 强制性国家标准；\n5. 推荐性标准、政府解读、行业资料；\n6. 本知识库编写的巡检指南和处置卡。\n\n同一层级存在新旧版本时，以正式发布且已生效的新版本为准。征求意见稿、草案和培训材料不得覆盖现行规范。",
+      "charCount": 170,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 3,
+      "metadata": {
+        "title": "知识库使用与更新说明",
+        "document_type": "knowledge_base_policy",
+        "updated_at": "2026-06-17",
+        "category": "00_说明"
+      }
+    },
+    {
+      "id": "be55b2ee68fdabe9e91d391a13be89059ddb6b05f8aaededf8369d6e85ba6eaf",
+      "documentId": "00656961f2f31ce35e34534c705189fe4222a349a4885a097382dfd6f78ed392",
+      "sourcePath": "special-equipment-kb-starter/00_说明/知识库使用与更新说明.md",
+      "fileName": "知识库使用与更新说明.md",
+      "title": "知识库使用与更新说明",
+      "headings": [
+        "知识库使用与更新说明",
+        "回答生成规则"
+      ],
+      "sectionTitle": "回答生成规则",
+      "content": "回答应尽量包含四部分：\n\n- 直接结论；\n- 判断依据；\n- 建议采取的动作；\n- 引用来源。\n\n当检索材料不能支持明确结论时，应回答“现有知识库不足以判断”，而不是猜测。",
+      "contentWithContext": "文档标题：知识库使用与更新说明\n章节：知识库使用与更新说明 > 回答生成规则\n正文：回答应尽量包含四部分：\n\n- 直接结论；\n- 判断依据；\n- 建议采取的动作；\n- 引用来源。\n\n当检索材料不能支持明确结论时，应回答“现有知识库不足以判断”，而不是猜测。",
+      "charCount": 86,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 3,
+      "metadata": {
+        "title": "知识库使用与更新说明",
+        "document_type": "knowledge_base_policy",
+        "updated_at": "2026-06-17",
+        "category": "00_说明"
+      }
+    },
+    {
+      "id": "73ed2d75391877231e679d0ae5da1922a79477fcce03e86c74be0eb2a7833b48",
+      "documentId": "00656961f2f31ce35e34534c705189fe4222a349a4885a097382dfd6f78ed392",
+      "sourcePath": "special-equipment-kb-starter/00_说明/知识库使用与更新说明.md",
+      "fileName": "知识库使用与更新说明.md",
+      "title": "知识库使用与更新说明",
+      "headings": [
+        "知识库使用与更新说明",
+        "数据更新建议"
+      ],
+      "sectionTitle": "数据更新建议",
+      "content": "每季度检查一次以下页面：\n\n- 市场监管总局特种设备安全监察局“安全技术规范”栏目；\n- 国家标准全文公开系统；\n- 市场监管总局规章和公告；\n- 全国特种设备安全状况通报。\n\n发现新版文件时，不要直接覆盖旧文件。建议新增新版本，并通过 YAML 中的 status、effective_at、supersedes 标记替代关系，确认生效后再将旧版设为 superseded。",
+      "contentWithContext": "文档标题：知识库使用与更新说明\n章节：知识库使用与更新说明 > 数据更新建议\n正文：每季度检查一次以下页面：\n\n- 市场监管总局特种设备安全监察局“安全技术规范”栏目；\n- 国家标准全文公开系统；\n- 市场监管总局规章和公告；\n- 全国特种设备安全状况通报。\n\n发现新版文件时，不要直接覆盖旧文件。建议新增新版本，并通过 YAML 中的 status、effective_at、supersedes 标记替代关系，确认生效后再将旧版设为 superseded。",
+      "charCount": 188,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 3,
+      "metadata": {
+        "title": "知识库使用与更新说明",
+        "document_type": "knowledge_base_policy",
+        "updated_at": "2026-06-17",
+        "category": "00_说明"
+      }
+    },
+    {
+      "id": "d4d32956d0d880bd6a645ecee95b250bf499625ae3928748a714fd2740eeeaaa",
+      "documentId": "e881d960707d4bc28f278c7f3f6c96fa2259869ccaf9b136ab13991ab23664c4",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/2024年全国特种设备安全状况_风险提示.md",
+      "fileName": "2024年全国特种设备安全状况_风险提示.md",
+      "title": "2024年全国特种设备安全状况——风险提示",
+      "headings": [
+        "2024年全国特种设备安全状况——风险提示",
+        "设备规模"
+      ],
+      "sectionTitle": "设备规模",
+      "content": "截至 2024 年底，全国特种设备总量约 2294.18 万台，其中压力容器约 571.63 万台。另有气瓶约 3.18 亿只，在册压力管道总长度约 117.48 万公里。\n\n这些数据说明压力容器和压力管道是数量大、分布广、使用场景复杂的重要监管对象。",
+      "contentWithContext": "文档标题：2024年全国特种设备安全状况——风险提示\n章节：2024年全国特种设备安全状况——风险提示 > 设备规模\n正文：截至 2024 年底，全国特种设备总量约 2294.18 万台，其中压力容器约 571.63 万台。另有气瓶约 3.18 亿只，在册压力管道总长度约 117.48 万公里。\n\n这些数据说明压力容器和压力管道是数量大、分布广、使用场景复杂的重要监管对象。",
+      "charCount": 126,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 3,
+      "metadata": {
+        "title": "2024年全国特种设备安全状况——风险提示",
+        "document_type": "official_safety_bulletin_summary",
+        "equipment_types": [
+          "all_special_equipment",
+          "pressure_vessel",
+          "pressure_pipeline"
+        ],
+        "status": "reference",
+        "published_at": "2025-05-07",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/qktb/tb/art/2025/art_1b31b22095744942af16cf24cec957ac.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "fb1024b750e6138008c70fa10d2ccfee7a3d14fbb120f0bb38e32c7534f7b436",
+      "documentId": "e881d960707d4bc28f278c7f3f6c96fa2259869ccaf9b136ab13991ab23664c4",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/2024年全国特种设备安全状况_风险提示.md",
+      "fileName": "2024年全国特种设备安全状况_风险提示.md",
+      "title": "2024年全国特种设备安全状况——风险提示",
+      "headings": [
+        "2024年全国特种设备安全状况——风险提示",
+        "对知识库建设的启示"
+      ],
+      "sectionTitle": "对知识库建设的启示",
+      "content": "风险问答不能只覆盖设备本体，还应覆盖：\n\n- 人员违章和操作不当；\n- 安全管理制度未落实；\n- 维护保养和检查不到位；\n- 安全附件或保护装置异常；\n- 检验超期和隐患整改逾期；\n- 泄漏、爆炸、爆燃等承压设备典型事故表现。",
+      "contentWithContext": "文档标题：2024年全国特种设备安全状况——风险提示\n章节：2024年全国特种设备安全状况——风险提示 > 对知识库建设的启示\n正文：风险问答不能只覆盖设备本体，还应覆盖：\n\n- 人员违章和操作不当；\n- 安全管理制度未落实；\n- 维护保养和检查不到位；\n- 安全附件或保护装置异常；\n- 检验超期和隐患整改逾期；\n- 泄漏、爆炸、爆燃等承压设备典型事故表现。",
+      "charCount": 113,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 3,
+      "metadata": {
+        "title": "2024年全国特种设备安全状况——风险提示",
+        "document_type": "official_safety_bulletin_summary",
+        "equipment_types": [
+          "all_special_equipment",
+          "pressure_vessel",
+          "pressure_pipeline"
+        ],
+        "status": "reference",
+        "published_at": "2025-05-07",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/qktb/tb/art/2025/art_1b31b22095744942af16cf24cec957ac.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "42e88996fbc1f32692d59fbeb5d16dea314dea47f35735c5f864456885b9170f",
+      "documentId": "e881d960707d4bc28f278c7f3f6c96fa2259869ccaf9b136ab13991ab23664c4",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/2024年全国特种设备安全状况_风险提示.md",
+      "fileName": "2024年全国特种设备安全状况_风险提示.md",
+      "title": "2024年全国特种设备安全状况——风险提示",
+      "headings": [
+        "2024年全国特种设备安全状况——风险提示",
+        "回答使用方式"
+      ],
+      "sectionTitle": "回答使用方式",
+      "content": "安全状况通报适合用于说明行业风险和事故特点，不适合代替具体设备的技术规范。判断某台设备能否继续使用时，应优先查阅法律、现行 TSG、检验报告和设计文件。",
+      "contentWithContext": "文档标题：2024年全国特种设备安全状况——风险提示\n章节：2024年全国特种设备安全状况——风险提示 > 回答使用方式\n正文：安全状况通报适合用于说明行业风险和事故特点，不适合代替具体设备的技术规范。判断某台设备能否继续使用时，应优先查阅法律、现行 TSG、检验报告和设计文件。",
+      "charCount": 76,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 3,
+      "metadata": {
+        "title": "2024年全国特种设备安全状况——风险提示",
+        "document_type": "official_safety_bulletin_summary",
+        "equipment_types": [
+          "all_special_equipment",
+          "pressure_vessel",
+          "pressure_pipeline"
+        ],
+        "status": "reference",
+        "published_at": "2025-05-07",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/qktb/tb/art/2025/art_1b31b22095744942af16cf24cec957ac.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "cd292c94ec22c7ac9557a25bcc546ae4895ed11f40db02ebdda381615e58528e",
+      "documentId": "9e042dd79acc63644bb04ced584e3c0c0dd4bae8fa510bf737f8adaf42758b61",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/特种设备安全监察条例_使用单位摘要.md",
+      "fileName": "特种设备安全监察条例_使用单位摘要.md",
+      "title": "特种设备安全监察条例——使用单位摘要",
+      "headings": [
+        "特种设备安全监察条例——使用单位摘要",
+        "使用单位的核心责任"
+      ],
+      "sectionTitle": "使用单位的核心责任",
+      "content": "使用单位应严格执行特种设备安全相关法律、行政法规和安全技术规范，保证设备安全使用。其责任覆盖设备选用、登记、人员、日常管理、维护保养、检验、隐患治理和事故报告。",
+      "contentWithContext": "文档标题：特种设备安全监察条例——使用单位摘要\n章节：特种设备安全监察条例——使用单位摘要 > 使用单位的核心责任\n正文：使用单位应严格执行特种设备安全相关法律、行政法规和安全技术规范，保证设备安全使用。其责任覆盖设备选用、登记、人员、日常管理、维护保养、检验、隐患治理和事故报告。",
+      "charCount": 80,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "特种设备安全监察条例——使用单位摘要",
+        "document_no": "国务院令第373号（2009年修订）",
+        "document_type": "administrative_regulation_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_39ccf49cb9924eb9a4c496d050f027cd.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "27650f2b51ad4860df663d8f873ee99f274620c555938727d98650031aa9309a",
+      "documentId": "9e042dd79acc63644bb04ced584e3c0c0dd4bae8fa510bf737f8adaf42758b61",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/特种设备安全监察条例_使用单位摘要.md",
+      "fileName": "特种设备安全监察条例_使用单位摘要.md",
+      "title": "特种设备安全监察条例——使用单位摘要",
+      "headings": [
+        "特种设备安全监察条例——使用单位摘要",
+        "设备和资料"
+      ],
+      "sectionTitle": "设备和资料",
+      "content": "投入使用的设备应符合安全技术规范，并具有完整的设计、制造、安装、监督检验和使用维护资料。设备管理不应只维护一张台账，还应关联原始技术资料、历次检验报告、维修记录和异常记录。",
+      "contentWithContext": "文档标题：特种设备安全监察条例——使用单位摘要\n章节：特种设备安全监察条例——使用单位摘要 > 设备和资料\n正文：投入使用的设备应符合安全技术规范，并具有完整的设计、制造、安装、监督检验和使用维护资料。设备管理不应只维护一张台账，还应关联原始技术资料、历次检验报告、维修记录和异常记录。",
+      "charCount": 86,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "特种设备安全监察条例——使用单位摘要",
+        "document_no": "国务院令第373号（2009年修订）",
+        "document_type": "administrative_regulation_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_39ccf49cb9924eb9a4c496d050f027cd.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "9fbc6c9e4b9995b6459a456291632dfe91119ab63b508946df411b802c90afea",
+      "documentId": "9e042dd79acc63644bb04ced584e3c0c0dd4bae8fa510bf737f8adaf42758b61",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/特种设备安全监察条例_使用单位摘要.md",
+      "fileName": "特种设备安全监察条例_使用单位摘要.md",
+      "title": "特种设备安全监察条例——使用单位摘要",
+      "headings": [
+        "特种设备安全监察条例——使用单位摘要",
+        "运行管理"
+      ],
+      "sectionTitle": "运行管理",
+      "content": "使用单位应建立安全管理制度和岗位责任制度，配备相应的安全管理人员和作业人员。作业人员应按规定取得相应资格，并严格执行操作规程。",
+      "contentWithContext": "文档标题：特种设备安全监察条例——使用单位摘要\n章节：特种设备安全监察条例——使用单位摘要 > 运行管理\n正文：使用单位应建立安全管理制度和岗位责任制度，配备相应的安全管理人员和作业人员。作业人员应按规定取得相应资格，并严格执行操作规程。",
+      "charCount": 63,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "特种设备安全监察条例——使用单位摘要",
+        "document_no": "国务院令第373号（2009年修订）",
+        "document_type": "administrative_regulation_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_39ccf49cb9924eb9a4c496d050f027cd.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "8279b2ad8651abbb800e688d1201315df6bb5e2452c8133edecc3e211b53e677",
+      "documentId": "9e042dd79acc63644bb04ced584e3c0c0dd4bae8fa510bf737f8adaf42758b61",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/特种设备安全监察条例_使用单位摘要.md",
+      "fileName": "特种设备安全监察条例_使用单位摘要.md",
+      "title": "特种设备安全监察条例——使用单位摘要",
+      "headings": [
+        "特种设备安全监察条例——使用单位摘要",
+        "检查和隐患处理"
+      ],
+      "sectionTitle": "检查和隐患处理",
+      "content": "使用过程中应开展日常维护保养和自行检查。发现异常、故障或者事故隐患时，应采取措施处理；对不符合安全要求的设备，不应以“继续观察”代替必要的停用、检验或者维修。",
+      "contentWithContext": "文档标题：特种设备安全监察条例——使用单位摘要\n章节：特种设备安全监察条例——使用单位摘要 > 检查和隐患处理\n正文：使用过程中应开展日常维护保养和自行检查。发现异常、故障或者事故隐患时，应采取措施处理；对不符合安全要求的设备，不应以“继续观察”代替必要的停用、检验或者维修。",
+      "charCount": 79,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "特种设备安全监察条例——使用单位摘要",
+        "document_no": "国务院令第373号（2009年修订）",
+        "document_type": "administrative_regulation_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_39ccf49cb9924eb9a4c496d050f027cd.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "42fb439b9bae2e9ab0041d905b74af6c13b14f8bb5250c49a887e714fde321c1",
+      "documentId": "9e042dd79acc63644bb04ced584e3c0c0dd4bae8fa510bf737f8adaf42758b61",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/特种设备安全监察条例_使用单位摘要.md",
+      "fileName": "特种设备安全监察条例_使用单位摘要.md",
+      "title": "特种设备安全监察条例——使用单位摘要",
+      "headings": [
+        "特种设备安全监察条例——使用单位摘要",
+        "检验"
+      ],
+      "sectionTitle": "检验",
+      "content": "需要定期检验的设备，应在有效期届满前按规定申报检验。超过检验有效期、未经检验或者检验不合格继续使用，会形成明显合规风险。",
+      "contentWithContext": "文档标题：特种设备安全监察条例——使用单位摘要\n章节：特种设备安全监察条例——使用单位摘要 > 检验\n正文：需要定期检验的设备，应在有效期届满前按规定申报检验。超过检验有效期、未经检验或者检验不合格继续使用，会形成明显合规风险。",
+      "charCount": 60,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 4,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "特种设备安全监察条例——使用单位摘要",
+        "document_no": "国务院令第373号（2009年修订）",
+        "document_type": "administrative_regulation_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_39ccf49cb9924eb9a4c496d050f027cd.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "e2c6379d1bd99b3924fdb8c406be05a845349f5bcc7f8727ea25846dc8a8b1e4",
+      "documentId": "9e042dd79acc63644bb04ced584e3c0c0dd4bae8fa510bf737f8adaf42758b61",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/特种设备安全监察条例_使用单位摘要.md",
+      "fileName": "特种设备安全监察条例_使用单位摘要.md",
+      "title": "特种设备安全监察条例——使用单位摘要",
+      "headings": [
+        "特种设备安全监察条例——使用单位摘要",
+        "与《特种设备安全法》的关系"
+      ],
+      "sectionTitle": "与《特种设备安全法》的关系",
+      "content": "《特种设备安全法》效力高于本条例。知识库回答出现差异时，应优先依据法律，并结合现行部门规章和安全技术规范判断。",
+      "contentWithContext": "文档标题：特种设备安全监察条例——使用单位摘要\n章节：特种设备安全监察条例——使用单位摘要 > 与《特种设备安全法》的关系\n正文：《特种设备安全法》效力高于本条例。知识库回答出现差异时，应优先依据法律，并结合现行部门规章和安全技术规范判断。",
+      "charCount": 55,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 5,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "特种设备安全监察条例——使用单位摘要",
+        "document_no": "国务院令第373号（2009年修订）",
+        "document_type": "administrative_regulation_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_39ccf49cb9924eb9a4c496d050f027cd.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "308aa9af7441cf0066b583c65793d32d05ece727396cf973c11e113bcb83f886",
+      "documentId": "112b0eb23fd279b75155f59dadf6ce4456750b483f9b2f204622541a3614cf76",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/压力容器使用单位主体责任_日周月机制.md",
+      "fileName": "压力容器使用单位主体责任_日周月机制.md",
+      "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+      "headings": [
+        "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "责任角色"
+      ],
+      "sectionTitle": "责任角色",
+      "content": "压力容器使用单位应结合实际明确主要负责人、压力容器安全总监和压力容器安全员的职责。主要负责人承担领导责任，安全总监组织风险排查和制度落实，安全员负责日常检查、记录和问题上报。",
+      "contentWithContext": "文档标题：压力容器使用单位主体责任——日管控、周排查、月调度\n章节：压力容器使用单位主体责任——日管控、周排查、月调度 > 责任角色\n正文：压力容器使用单位应结合实际明确主要负责人、压力容器安全总监和压力容器安全员的职责。主要负责人承担领导责任，安全总监组织风险排查和制度落实，安全员负责日常检查、记录和问题上报。",
+      "charCount": 87,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "document_no": "国家市场监督管理总局令第74号",
+        "document_type": "department_rule_summary",
+        "equipment_types": [
+          "pressure_vessel"
+        ],
+        "status": "effective",
+        "effective_at": "2023-05-05",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_df3582cb24ae497ba18d9667ecbb63b7.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "31edfb8b55bbdf9a8ef23f465f23fba040f27fd0423ba54ca3bf10d54acf3a5a",
+      "documentId": "112b0eb23fd279b75155f59dadf6ce4456750b483f9b2f204622541a3614cf76",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/压力容器使用单位主体责任_日周月机制.md",
+      "fileName": "压力容器使用单位主体责任_日周月机制.md",
+      "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+      "headings": [
+        "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "风险管控清单"
+      ],
+      "sectionTitle": "风险管控清单",
+      "content": "使用单位应制定《压力容器安全风险管控清单》。清单应与现场设备和介质相对应，不能只采用不区分设备的通用模板。\n\n建议清单至少关联：\n\n- 设备编号和使用登记信息；\n- 设计、工作压力和温度；\n- 介质及主要危险特性；\n- 容器本体、支承、基础和连接部位；\n- 安全阀、爆破片、压力表、液位计和测温仪表；\n- 检验、校验和维护期限；\n- 典型异常、控制措施和责任人。",
+      "contentWithContext": "文档标题：压力容器使用单位主体责任——日管控、周排查、月调度\n章节：压力容器使用单位主体责任——日管控、周排查、月调度 > 风险管控清单\n正文：使用单位应制定《压力容器安全风险管控清单》。清单应与现场设备和介质相对应，不能只采用不区分设备的通用模板。\n\n建议清单至少关联：\n\n- 设备编号和使用登记信息；\n- 设计、工作压力和温度；\n- 介质及主要危险特性；\n- 容器本体、支承、基础和连接部位；\n- 安全阀、爆破片、压力表、液位计和测温仪表；\n- 检验、校验和维护期限；\n- 典型异常、控制措施和责任人。",
+      "charCount": 181,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "document_no": "国家市场监督管理总局令第74号",
+        "document_type": "department_rule_summary",
+        "equipment_types": [
+          "pressure_vessel"
+        ],
+        "status": "effective",
+        "effective_at": "2023-05-05",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_df3582cb24ae497ba18d9667ecbb63b7.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "87f3e1a6307dcd23f2ff40a71052eb5e8eedb9ae145f053cb4cf3fae6b0d9c79",
+      "documentId": "112b0eb23fd279b75155f59dadf6ce4456750b483f9b2f204622541a3614cf76",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/压力容器使用单位主体责任_日周月机制.md",
+      "fileName": "压力容器使用单位主体责任_日周月机制.md",
+      "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+      "headings": [
+        "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "日管控"
+      ],
+      "sectionTitle": "日管控",
+      "content": "压力容器安全员应每日依据风险管控清单，对投入使用的压力容器进行巡检，形成《每日压力容器安全检查记录》。\n\n发现风险隐患时，应立即采取防范措施并上报。没有发现问题也应记录，实行零风险报告。",
+      "contentWithContext": "文档标题：压力容器使用单位主体责任——日管控、周排查、月调度\n章节：压力容器使用单位主体责任——日管控、周排查、月调度 > 日管控\n正文：压力容器安全员应每日依据风险管控清单，对投入使用的压力容器进行巡检，形成《每日压力容器安全检查记录》。\n\n发现风险隐患时，应立即采取防范措施并上报。没有发现问题也应记录，实行零风险报告。",
+      "charCount": 93,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "document_no": "国家市场监督管理总局令第74号",
+        "document_type": "department_rule_summary",
+        "equipment_types": [
+          "pressure_vessel"
+        ],
+        "status": "effective",
+        "effective_at": "2023-05-05",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_df3582cb24ae497ba18d9667ecbb63b7.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "3533745aaa30ffdbef5934cd5d2b22dd55b727902dbf166f1e703500736fec26",
+      "documentId": "112b0eb23fd279b75155f59dadf6ce4456750b483f9b2f204622541a3614cf76",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/压力容器使用单位主体责任_日周月机制.md",
+      "fileName": "压力容器使用单位主体责任_日周月机制.md",
+      "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+      "headings": [
+        "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "周排查"
+      ],
+      "sectionTitle": "周排查",
+      "content": "压力容器安全总监每周至少组织一次风险隐患排查，分析日管控发现的问题，研究整改和防范措施，并形成《每周压力容器安全排查治理报告》。\n\n周排查重点不只是重复现场巡视，还应检查：\n\n- 日检查记录是否真实、完整；\n- 重复发生的异常是否得到根因分析；\n- 临时措施是否长期化；\n- 整改责任人和期限是否明确；\n- 到期检验、校验、维修事项是否遗漏。",
+      "contentWithContext": "文档标题：压力容器使用单位主体责任——日管控、周排查、月调度\n章节：压力容器使用单位主体责任——日管控、周排查、月调度 > 周排查\n正文：压力容器安全总监每周至少组织一次风险隐患排查，分析日管控发现的问题，研究整改和防范措施，并形成《每周压力容器安全排查治理报告》。\n\n周排查重点不只是重复现场巡视，还应检查：\n\n- 日检查记录是否真实、完整；\n- 重复发生的异常是否得到根因分析；\n- 临时措施是否长期化；\n- 整改责任人和期限是否明确；\n- 到期检验、校验、维修事项是否遗漏。",
+      "charCount": 171,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "document_no": "国家市场监督管理总局令第74号",
+        "document_type": "department_rule_summary",
+        "equipment_types": [
+          "pressure_vessel"
+        ],
+        "status": "effective",
+        "effective_at": "2023-05-05",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_df3582cb24ae497ba18d9667ecbb63b7.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "55a387f0be35d439ee84075b146090dde6a0215697ec4b9c64f4fbd14c567ffc",
+      "documentId": "112b0eb23fd279b75155f59dadf6ce4456750b483f9b2f204622541a3614cf76",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/压力容器使用单位主体责任_日周月机制.md",
+      "fileName": "压力容器使用单位主体责任_日周月机制.md",
+      "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+      "headings": [
+        "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "月调度"
+      ],
+      "sectionTitle": "月调度",
+      "content": "主要负责人每月至少听取一次压力容器安全管理情况汇报，对当月风险和整改情况进行总结，安排下月重点工作，并形成会议纪要。",
+      "contentWithContext": "文档标题：压力容器使用单位主体责任——日管控、周排查、月调度\n章节：压力容器使用单位主体责任——日管控、周排查、月调度 > 月调度\n正文：主要负责人每月至少听取一次压力容器安全管理情况汇报，对当月风险和整改情况进行总结，安排下月重点工作，并形成会议纪要。",
+      "charCount": 58,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 4,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "document_no": "国家市场监督管理总局令第74号",
+        "document_type": "department_rule_summary",
+        "equipment_types": [
+          "pressure_vessel"
+        ],
+        "status": "effective",
+        "effective_at": "2023-05-05",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_df3582cb24ae497ba18d9667ecbb63b7.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "653e236d36d180df4b589f910cb39100f7d76fabb688b3392c91b70e2ddba071",
+      "documentId": "112b0eb23fd279b75155f59dadf6ce4456750b483f9b2f204622541a3614cf76",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/压力容器使用单位主体责任_日周月机制.md",
+      "fileName": "压力容器使用单位主体责任_日周月机制.md",
+      "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+      "headings": [
+        "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "系统实现建议"
+      ],
+      "sectionTitle": "系统实现建议",
+      "content": "数字化系统可以将日、周、月机制设计为三级任务：\n\n- 日任务：现场巡检和异常上报；\n- 周任务：问题聚合、趋势分析、整改复查；\n- 月任务：风险统计、逾期事项和管理决策。\n\n依据：总局令第74号第二十六条至第二十九条。",
+      "contentWithContext": "文档标题：压力容器使用单位主体责任——日管控、周排查、月调度\n章节：压力容器使用单位主体责任——日管控、周排查、月调度 > 系统实现建议\n正文：数字化系统可以将日、周、月机制设计为三级任务：\n\n- 日任务：现场巡检和异常上报；\n- 周任务：问题聚合、趋势分析、整改复查；\n- 月任务：风险统计、逾期事项和管理决策。\n\n依据：总局令第74号第二十六条至第二十九条。",
+      "charCount": 109,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 5,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器使用单位主体责任——日管控、周排查、月调度",
+        "document_no": "国家市场监督管理总局令第74号",
+        "document_type": "department_rule_summary",
+        "equipment_types": [
+          "pressure_vessel"
+        ],
+        "status": "effective",
+        "effective_at": "2023-05-05",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/fgs/art/2023/art_df3582cb24ae497ba18d9667ecbb63b7.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "9b530a9e0eb6c7a46e2afb0e7c614116895b0b58512a2c4029842ef67898d63d",
+      "documentId": "83382fb8d684a8a869873349fb6630a3349757b4dba33e823552c0d528b1e1e0",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/中华人民共和国特种设备安全法_使用管理摘要.md",
+      "fileName": "中华人民共和国特种设备安全法_使用管理摘要.md",
+      "title": "中华人民共和国特种设备安全法——使用管理摘要",
+      "headings": [
+        "中华人民共和国特种设备安全法——使用管理摘要",
+        "适用对象"
+      ],
+      "sectionTitle": "适用对象",
+      "content": "特种设备包括锅炉、压力容器（含气瓶）、压力管道、电梯、起重机械、客运索道、大型游乐设施、场（厂）内专用机动车辆，以及法律、行政法规规定适用本法的其他设备。",
+      "contentWithContext": "文档标题：中华人民共和国特种设备安全法——使用管理摘要\n章节：中华人民共和国特种设备安全法——使用管理摘要 > 适用对象\n正文：特种设备包括锅炉、压力容器（含气瓶）、压力管道、电梯、起重机械、客运索道、大型游乐设施、场（厂）内专用机动车辆，以及法律、行政法规规定适用本法的其他设备。",
+      "charCount": 77,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "中华人民共和国特种设备安全法——使用管理摘要",
+        "document_no": "中华人民共和国主席令第4号",
+        "document_type": "law_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "effective_at": "2014-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/zcfg/flfg/art/2019/art_39715c5a62f64e32aa522fcc2afd6298.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "6b5aaf80c6673b654d3b7710eb11663d324fb7d4612b340cd159674ef518d6a8",
+      "documentId": "83382fb8d684a8a869873349fb6630a3349757b4dba33e823552c0d528b1e1e0",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/中华人民共和国特种设备安全法_使用管理摘要.md",
+      "fileName": "中华人民共和国特种设备安全法_使用管理摘要.md",
+      "title": "中华人民共和国特种设备安全法——使用管理摘要",
+      "headings": [
+        "中华人民共和国特种设备安全法——使用管理摘要",
+        "使用前的基本要求"
+      ],
+      "sectionTitle": "使用前的基本要求",
+      "content": "使用单位应使用取得许可生产且经检验合格的设备，不得使用国家明令淘汰或者已经报废的设备。\n\n特种设备应当在投入使用前，或者投入使用后三十日内办理使用登记。登记标志应放置在设备显著位置。",
+      "contentWithContext": "文档标题：中华人民共和国特种设备安全法——使用管理摘要\n章节：中华人民共和国特种设备安全法——使用管理摘要 > 使用前的基本要求\n正文：使用单位应使用取得许可生产且经检验合格的设备，不得使用国家明令淘汰或者已经报废的设备。\n\n特种设备应当在投入使用前，或者投入使用后三十日内办理使用登记。登记标志应放置在设备显著位置。",
+      "charCount": 91,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "中华人民共和国特种设备安全法——使用管理摘要",
+        "document_no": "中华人民共和国主席令第4号",
+        "document_type": "law_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "effective_at": "2014-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/zcfg/flfg/art/2019/art_39715c5a62f64e32aa522fcc2afd6298.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "90f91da7626b53608b4fc71eac08615c5a3320b706a6c605ba31ba076046d0c3",
+      "documentId": "83382fb8d684a8a869873349fb6630a3349757b4dba33e823552c0d528b1e1e0",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/中华人民共和国特种设备安全法_使用管理摘要.md",
+      "fileName": "中华人民共和国特种设备安全法_使用管理摘要.md",
+      "title": "中华人民共和国特种设备安全法——使用管理摘要",
+      "headings": [
+        "中华人民共和国特种设备安全法——使用管理摘要",
+        "安全管理制度"
+      ],
+      "sectionTitle": "安全管理制度",
+      "content": "使用单位应建立岗位责任、隐患治理、应急救援等安全管理制度，并根据设备特点制定操作规程。操作规程不能只写正常启停步骤，还应覆盖运行参数、巡回检查、异常处置和报告路径。",
+      "contentWithContext": "文档标题：中华人民共和国特种设备安全法——使用管理摘要\n章节：中华人民共和国特种设备安全法——使用管理摘要 > 安全管理制度\n正文：使用单位应建立岗位责任、隐患治理、应急救援等安全管理制度，并根据设备特点制定操作规程。操作规程不能只写正常启停步骤，还应覆盖运行参数、巡回检查、异常处置和报告路径。",
+      "charCount": 82,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "中华人民共和国特种设备安全法——使用管理摘要",
+        "document_no": "中华人民共和国主席令第4号",
+        "document_type": "law_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "effective_at": "2014-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/zcfg/flfg/art/2019/art_39715c5a62f64e32aa522fcc2afd6298.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "ec64861b4342953209e41f907411eaf220cb5e6f78b626afb1fdc7929cc32a4f",
+      "documentId": "83382fb8d684a8a869873349fb6630a3349757b4dba33e823552c0d528b1e1e0",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/中华人民共和国特种设备安全法_使用管理摘要.md",
+      "fileName": "中华人民共和国特种设备安全法_使用管理摘要.md",
+      "title": "中华人民共和国特种设备安全法——使用管理摘要",
+      "headings": [
+        "中华人民共和国特种设备安全法——使用管理摘要",
+        "安全技术档案"
+      ],
+      "sectionTitle": "安全技术档案",
+      "content": "每台设备应建立可追溯的安全技术档案，至少覆盖：\n\n- 设计文件、产品质量合格证明、安装及使用维护保养说明、监督检验证明；\n- 定期检验和定期自行检查记录；\n- 日常使用状况记录；\n- 设备及附属仪器仪表的维护保养记录；\n- 运行故障和事故记录。\n\n缺少档案不仅是文档问题，还会妨碍检验、隐患判断和设备全生命周期追溯。",
+      "contentWithContext": "文档标题：中华人民共和国特种设备安全法——使用管理摘要\n章节：中华人民共和国特种设备安全法——使用管理摘要 > 安全技术档案\n正文：每台设备应建立可追溯的安全技术档案，至少覆盖：\n\n- 设计文件、产品质量合格证明、安装及使用维护保养说明、监督检验证明；\n- 定期检验和定期自行检查记录；\n- 日常使用状况记录；\n- 设备及附属仪器仪表的维护保养记录；\n- 运行故障和事故记录。\n\n缺少档案不仅是文档问题，还会妨碍检验、隐患判断和设备全生命周期追溯。",
+      "charCount": 158,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "中华人民共和国特种设备安全法——使用管理摘要",
+        "document_no": "中华人民共和国主席令第4号",
+        "document_type": "law_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "effective_at": "2014-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/zcfg/flfg/art/2019/art_39715c5a62f64e32aa522fcc2afd6298.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "950ecdf3e9e927ff9934fb7bcbb9790839e8c8e9602e0a71f2182d477c6b317b",
+      "documentId": "83382fb8d684a8a869873349fb6630a3349757b4dba33e823552c0d528b1e1e0",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/中华人民共和国特种设备安全法_使用管理摘要.md",
+      "fileName": "中华人民共和国特种设备安全法_使用管理摘要.md",
+      "title": "中华人民共和国特种设备安全法——使用管理摘要",
+      "headings": [
+        "中华人民共和国特种设备安全法——使用管理摘要",
+        "维护、检查与检验"
+      ],
+      "sectionTitle": "维护、检查与检验",
+      "content": "使用单位应进行经常性维护保养和定期自行检查，并形成记录。安全附件和安全保护装置应按要求定期校验、检修并记录。\n\n使用单位应在检验合格有效期届满前一个月提出定期检验要求。未经定期检验或者检验不合格的设备不得继续使用。",
+      "contentWithContext": "文档标题：中华人民共和国特种设备安全法——使用管理摘要\n章节：中华人民共和国特种设备安全法——使用管理摘要 > 维护、检查与检验\n正文：使用单位应进行经常性维护保养和定期自行检查，并形成记录。安全附件和安全保护装置应按要求定期校验、检修并记录。\n\n使用单位应在检验合格有效期届满前一个月提出定期检验要求。未经定期检验或者检验不合格的设备不得继续使用。",
+      "charCount": 107,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 4,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "中华人民共和国特种设备安全法——使用管理摘要",
+        "document_no": "中华人民共和国主席令第4号",
+        "document_type": "law_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "effective_at": "2014-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/zcfg/flfg/art/2019/art_39715c5a62f64e32aa522fcc2afd6298.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "e0a493719b5ab9e493458a30bc5f6385cea9b100509a381d58978750d51252c7",
+      "documentId": "83382fb8d684a8a869873349fb6630a3349757b4dba33e823552c0d528b1e1e0",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/中华人民共和国特种设备安全法_使用管理摘要.md",
+      "fileName": "中华人民共和国特种设备安全法_使用管理摘要.md",
+      "title": "中华人民共和国特种设备安全法——使用管理摘要",
+      "headings": [
+        "中华人民共和国特种设备安全法——使用管理摘要",
+        "异常情况"
+      ],
+      "sectionTitle": "异常情况",
+      "content": "安全管理人员发现问题应立即处理；情况紧急时，可以决定停止使用并及时报告。\n\n设备出现故障或者异常情况后，使用单位应进行全面检查并消除事故隐患，之后方可恢复使用。不能把“参数恢复正常”直接等同于“隐患已经消除”。",
+      "contentWithContext": "文档标题：中华人民共和国特种设备安全法——使用管理摘要\n章节：中华人民共和国特种设备安全法——使用管理摘要 > 异常情况\n正文：安全管理人员发现问题应立即处理；情况紧急时，可以决定停止使用并及时报告。\n\n设备出现故障或者异常情况后，使用单位应进行全面检查并消除事故隐患，之后方可恢复使用。不能把“参数恢复正常”直接等同于“隐患已经消除”。",
+      "charCount": 105,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 5,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "中华人民共和国特种设备安全法——使用管理摘要",
+        "document_no": "中华人民共和国主席令第4号",
+        "document_type": "law_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "effective_at": "2014-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/zcfg/flfg/art/2019/art_39715c5a62f64e32aa522fcc2afd6298.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "bd91a979e8334ac1286fd89bb27bc18727a9d819e6ae71df4b221d5f94594f62",
+      "documentId": "83382fb8d684a8a869873349fb6630a3349757b4dba33e823552c0d528b1e1e0",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/中华人民共和国特种设备安全法_使用管理摘要.md",
+      "fileName": "中华人民共和国特种设备安全法_使用管理摘要.md",
+      "title": "中华人民共和国特种设备安全法——使用管理摘要",
+      "headings": [
+        "中华人民共和国特种设备安全法——使用管理摘要",
+        "报废与超设计使用年限"
+      ],
+      "sectionTitle": "报废与超设计使用年限",
+      "content": "存在严重事故隐患且无改造、修理价值，或者达到规定报废条件的，应履行报废义务，消除设备使用功能并办理注销。\n\n达到设计使用年限但拟继续使用的，应按照安全技术规范完成检验或者安全评估，并办理使用登记证书变更，同时采取加强检验、检测和维护保养等措施。",
+      "contentWithContext": "文档标题：中华人民共和国特种设备安全法——使用管理摘要\n章节：中华人民共和国特种设备安全法——使用管理摘要 > 报废与超设计使用年限\n正文：存在严重事故隐患且无改造、修理价值，或者达到规定报废条件的，应履行报废义务，消除设备使用功能并办理注销。\n\n达到设计使用年限但拟继续使用的，应按照安全技术规范完成检验或者安全评估，并办理使用登记证书变更，同时采取加强检验、检测和维护保养等措施。",
+      "charCount": 122,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 6,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "中华人民共和国特种设备安全法——使用管理摘要",
+        "document_no": "中华人民共和国主席令第4号",
+        "document_type": "law_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "effective_at": "2014-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/zcfg/flfg/art/2019/art_39715c5a62f64e32aa522fcc2afd6298.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "a683c5b916867754bdbe0abec5134eb6cef41d2ee3199fdba2bb2a6e9437dcbb",
+      "documentId": "83382fb8d684a8a869873349fb6630a3349757b4dba33e823552c0d528b1e1e0",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/中华人民共和国特种设备安全法_使用管理摘要.md",
+      "fileName": "中华人民共和国特种设备安全法_使用管理摘要.md",
+      "title": "中华人民共和国特种设备安全法——使用管理摘要",
+      "headings": [
+        "中华人民共和国特种设备安全法——使用管理摘要",
+        "主要依据"
+      ],
+      "sectionTitle": "主要依据",
+      "content": "《中华人民共和国特种设备安全法》第十五条、第三十二条至第四十二条、第四十八条。",
+      "contentWithContext": "文档标题：中华人民共和国特种设备安全法——使用管理摘要\n章节：中华人民共和国特种设备安全法——使用管理摘要 > 主要依据\n正文：《中华人民共和国特种设备安全法》第十五条、第三十二条至第四十二条、第四十八条。",
+      "charCount": 39,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 7,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "中华人民共和国特种设备安全法——使用管理摘要",
+        "document_no": "中华人民共和国主席令第4号",
+        "document_type": "law_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "effective_at": "2014-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/tzsbj/zcfg/flfg/art/2019/art_39715c5a62f64e32aa522fcc2afd6298.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "31b4046e4d6c177560575177ad56030bc8c99c1115d822c604150d87781e68db",
+      "documentId": "0103a5e18c0ecf725e4eb498dc3a21085caa485eb2deb32a1e50ace7b1d48e85",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "fileName": "GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "title": "压力容器重大事故隐患判定摘要",
+      "headings": [
+        "GB 45067—2024 压力容器重大事故隐患判定摘要",
+        "标准定位"
+      ],
+      "sectionTitle": "标准定位",
+      "content": "GB 45067—2024 是特种设备重大事故隐患判定的强制性国家标准，适用于使用过程中的特种设备。重大事故隐患判定的主体责任主要由使用单位承担。",
+      "contentWithContext": "文档标题：压力容器重大事故隐患判定摘要\n章节：GB 45067—2024 压力容器重大事故隐患判定摘要 > 标准定位\n正文：GB 45067—2024 是特种设备重大事故隐患判定的强制性国家标准，适用于使用过程中的特种设备。重大事故隐患判定的主体责任主要由使用单位承担。",
+      "charCount": 73,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器重大事故隐患判定摘要",
+        "document_no": "GB 45067-2024",
+        "document_type": "mandatory_national_standard_summary",
+        "equipment_types": [
+          "pressure_vessel",
+          "pressure_pipeline"
+        ],
+        "status": "effective",
+        "published_at": "2024-11-28",
+        "effective_at": "2024-12-01",
+        "source_authority": "国家市场监督管理总局、国家标准化管理委员会",
+        "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=081C93E3186E0D1FE5CB034093C47A53",
+        "interpretation_url": "https://yjgl.sz.gov.cn/attachment/1/1583/1583447/12182373.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "bbf4e15421f9052eb8cfe75fc165343c75903bf910395c4d27c492fa628ab813",
+      "documentId": "0103a5e18c0ecf725e4eb498dc3a21085caa485eb2deb32a1e50ace7b1d48e85",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "fileName": "GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "title": "压力容器重大事故隐患判定摘要",
+      "headings": [
+        "GB 45067—2024 压力容器重大事故隐患判定摘要",
+        "通用重大事故隐患"
+      ],
+      "sectionTitle": "通用重大事故隐患",
+      "content": "特种设备存在下列情形之一且仍继续使用，应判定为重大事故隐患：\n\n- 未取得许可生产、因安全问题被国家明令淘汰、已经报废或者达到报废条件；\n- 发生过事故，未进行全面检查和消除事故隐患；\n- 未按规定进行监督检验，或者监督检验不合格；\n- 存在各类设备条款中规定的超过参数或使用范围等情形。",
+      "contentWithContext": "文档标题：压力容器重大事故隐患判定摘要\n章节：GB 45067—2024 压力容器重大事故隐患判定摘要 > 通用重大事故隐患\n正文：特种设备存在下列情形之一且仍继续使用，应判定为重大事故隐患：\n\n- 未取得许可生产、因安全问题被国家明令淘汰、已经报废或者达到报废条件；\n- 发生过事故，未进行全面检查和消除事故隐患；\n- 未按规定进行监督检验，或者监督检验不合格；\n- 存在各类设备条款中规定的超过参数或使用范围等情形。",
+      "charCount": 144,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器重大事故隐患判定摘要",
+        "document_no": "GB 45067-2024",
+        "document_type": "mandatory_national_standard_summary",
+        "equipment_types": [
+          "pressure_vessel",
+          "pressure_pipeline"
+        ],
+        "status": "effective",
+        "published_at": "2024-11-28",
+        "effective_at": "2024-12-01",
+        "source_authority": "国家市场监督管理总局、国家标准化管理委员会",
+        "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=081C93E3186E0D1FE5CB034093C47A53",
+        "interpretation_url": "https://yjgl.sz.gov.cn/attachment/1/1583/1583447/12182373.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "dad1eeec9d05b9b46f0cfea503a01cd739ad07b08b6b5c7566adf52292fa7441",
+      "documentId": "0103a5e18c0ecf725e4eb498dc3a21085caa485eb2deb32a1e50ace7b1d48e85",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "fileName": "GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "title": "压力容器重大事故隐患判定摘要",
+      "headings": [
+        "GB 45067—2024 压力容器重大事故隐患判定摘要",
+        "压力容器重大事故隐患"
+      ],
+      "sectionTitle": "压力容器重大事故隐患",
+      "content": "压力容器存在下列情形之一且仍继续使用，应判定为重大事故隐患：\n\n- 定期检验结论为“不符合要求”；\n- 将固定式压力容器改作移动式压力容器使用；\n- 固定式或移动式压力容器的安全阀、爆破片装置、紧急切断装置缺失或者失效；\n- 快开门式压力容器的快开安全保护联锁装置缺失或者失效；\n- 氧舱接地装置缺失或者失效；\n- 氧舱安全保护联锁功能失效。",
+      "contentWithContext": "文档标题：压力容器重大事故隐患判定摘要\n章节：GB 45067—2024 压力容器重大事故隐患判定摘要 > 压力容器重大事故隐患\n正文：压力容器存在下列情形之一且仍继续使用，应判定为重大事故隐患：\n\n- 定期检验结论为“不符合要求”；\n- 将固定式压力容器改作移动式压力容器使用；\n- 固定式或移动式压力容器的安全阀、爆破片装置、紧急切断装置缺失或者失效；\n- 快开门式压力容器的快开安全保护联锁装置缺失或者失效；\n- 氧舱接地装置缺失或者失效；\n- 氧舱安全保护联锁功能失效。",
+      "charCount": 171,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器重大事故隐患判定摘要",
+        "document_no": "GB 45067-2024",
+        "document_type": "mandatory_national_standard_summary",
+        "equipment_types": [
+          "pressure_vessel",
+          "pressure_pipeline"
+        ],
+        "status": "effective",
+        "published_at": "2024-11-28",
+        "effective_at": "2024-12-01",
+        "source_authority": "国家市场监督管理总局、国家标准化管理委员会",
+        "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=081C93E3186E0D1FE5CB034093C47A53",
+        "interpretation_url": "https://yjgl.sz.gov.cn/attachment/1/1583/1583447/12182373.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "dc8e1bcac35b22455e8a630b49f302dc03e5f6748b9464472249a2ee35b2e393",
+      "documentId": "0103a5e18c0ecf725e4eb498dc3a21085caa485eb2deb32a1e50ace7b1d48e85",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "fileName": "GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "title": "压力容器重大事故隐患判定摘要",
+      "headings": [
+        "GB 45067—2024 压力容器重大事故隐患判定摘要",
+        "压力管道重大事故隐患"
+      ],
+      "sectionTitle": "压力管道重大事故隐患",
+      "content": "压力管道存在以下情形之一且仍继续使用，应判定为重大事故隐患：\n\n- 定期检验结论为“不符合要求”或者“不允许使用”；\n- 安全阀、爆破片装置、紧急切断装置缺失或者失效。",
+      "contentWithContext": "文档标题：压力容器重大事故隐患判定摘要\n章节：GB 45067—2024 压力容器重大事故隐患判定摘要 > 压力管道重大事故隐患\n正文：压力管道存在以下情形之一且仍继续使用，应判定为重大事故隐患：\n\n- 定期检验结论为“不符合要求”或者“不允许使用”；\n- 安全阀、爆破片装置、紧急切断装置缺失或者失效。",
+      "charCount": 84,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器重大事故隐患判定摘要",
+        "document_no": "GB 45067-2024",
+        "document_type": "mandatory_national_standard_summary",
+        "equipment_types": [
+          "pressure_vessel",
+          "pressure_pipeline"
+        ],
+        "status": "effective",
+        "published_at": "2024-11-28",
+        "effective_at": "2024-12-01",
+        "source_authority": "国家市场监督管理总局、国家标准化管理委员会",
+        "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=081C93E3186E0D1FE5CB034093C47A53",
+        "interpretation_url": "https://yjgl.sz.gov.cn/attachment/1/1583/1583447/12182373.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "be2583e65e282d6cf896348135cd35617ceefaf51f411dbf9e739146ab0ac7cd",
+      "documentId": "0103a5e18c0ecf725e4eb498dc3a21085caa485eb2deb32a1e50ace7b1d48e85",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "fileName": "GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "title": "压力容器重大事故隐患判定摘要",
+      "headings": [
+        "GB 45067—2024 压力容器重大事故隐患判定摘要",
+        "系统提示规则"
+      ],
+      "sectionTitle": "系统提示规则",
+      "content": "当巡检或报告中出现上述关键词时，系统应触发高优先级人工复核，不应由大模型自行宣布“可以继续运行”。\n\n推荐风险标签：\n\n- major_hazard_candidate\n- stop_use_review_required\n- safety_device_missing_or_failed\n- inspection_result_unqualified",
+      "contentWithContext": "文档标题：压力容器重大事故隐患判定摘要\n章节：GB 45067—2024 压力容器重大事故隐患判定摘要 > 系统提示规则\n正文：当巡检或报告中出现上述关键词时，系统应触发高优先级人工复核，不应由大模型自行宣布“可以继续运行”。\n\n推荐风险标签：\n\n- major_hazard_candidate\n- stop_use_review_required\n- safety_device_missing_or_failed\n- inspection_result_unqualified",
+      "charCount": 177,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 4,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器重大事故隐患判定摘要",
+        "document_no": "GB 45067-2024",
+        "document_type": "mandatory_national_standard_summary",
+        "equipment_types": [
+          "pressure_vessel",
+          "pressure_pipeline"
+        ],
+        "status": "effective",
+        "published_at": "2024-11-28",
+        "effective_at": "2024-12-01",
+        "source_authority": "国家市场监督管理总局、国家标准化管理委员会",
+        "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=081C93E3186E0D1FE5CB034093C47A53",
+        "interpretation_url": "https://yjgl.sz.gov.cn/attachment/1/1583/1583447/12182373.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "ea41d7bcdf3739bb40436d460b5d06db886bdfee6ca411235b020373c2bfd08d",
+      "documentId": "0103a5e18c0ecf725e4eb498dc3a21085caa485eb2deb32a1e50ace7b1d48e85",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "fileName": "GB_45067-2024_压力容器重大事故隐患判定摘要.md",
+      "title": "压力容器重大事故隐患判定摘要",
+      "headings": [
+        "GB 45067—2024 压力容器重大事故隐患判定摘要",
+        "回答限制"
+      ],
+      "sectionTitle": "回答限制",
+      "content": "重大事故隐患属于严肃合规判断。模型可以指出“符合重大事故隐患候选特征”，但最终判断应结合设备类型、现场状态、检验结论、设计文件和主管部门要求。",
+      "contentWithContext": "文档标题：压力容器重大事故隐患判定摘要\n章节：GB 45067—2024 压力容器重大事故隐患判定摘要 > 回答限制\n正文：重大事故隐患属于严肃合规判断。模型可以指出“符合重大事故隐患候选特征”，但最终判断应结合设备类型、现场状态、检验结论、设计文件和主管部门要求。",
+      "charCount": 71,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 5,
+      "documentChunkCount": 6,
+      "metadata": {
+        "title": "压力容器重大事故隐患判定摘要",
+        "document_no": "GB 45067-2024",
+        "document_type": "mandatory_national_standard_summary",
+        "equipment_types": [
+          "pressure_vessel",
+          "pressure_pipeline"
+        ],
+        "status": "effective",
+        "published_at": "2024-11-28",
+        "effective_at": "2024-12-01",
+        "source_authority": "国家市场监督管理总局、国家标准化管理委员会",
+        "source_url": "https://openstd.samr.gov.cn/bzgk/std/newGbInfo?hcno=081C93E3186E0D1FE5CB034093C47A53",
+        "interpretation_url": "https://yjgl.sz.gov.cn/attachment/1/1583/1583447/12182373.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "cb3f3483fd5b3efedb69122d4a9ac1ee66378c88af0235aa5fc5e5b5aed348b6",
+      "documentId": "8f6b38eb84bf59b47ff667101f824b5bc0eb042880e15eaffbf297fe78cda2da",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_08-2017_特种设备使用管理规则摘要.md",
+      "fileName": "TSG_08-2017_特种设备使用管理规则摘要.md",
+      "title": "特种设备使用管理规则摘要",
+      "headings": [
+        "TSG 08—2017《特种设备使用管理规则》摘要",
+        "规则定位"
+      ],
+      "sectionTitle": "规则定位",
+      "content": "TSG 08—2017 是特种设备使用管理的综合规范，统一规定使用单位责任、人员配置、制度建设、维护检查、技术档案和使用登记等要求。",
+      "contentWithContext": "文档标题：特种设备使用管理规则摘要\n章节：TSG 08—2017《特种设备使用管理规则》摘要 > 规则定位\n正文：TSG 08—2017 是特种设备使用管理的综合规范，统一规定使用单位责任、人员配置、制度建设、维护检查、技术档案和使用登记等要求。",
+      "charCount": 66,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "特种设备使用管理规则摘要",
+        "document_no": "TSG 08-2017",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "published_at": "2017-01-16",
+        "source_authority": "原国家质量监督检验检疫总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/202006/P020200622398887853634.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "3fc2a672cdb9db9b231041ef4d69f71313192ba2b6192905243cc199a43d135a",
+      "documentId": "8f6b38eb84bf59b47ff667101f824b5bc0eb042880e15eaffbf297fe78cda2da",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_08-2017_特种设备使用管理规则摘要.md",
+      "fileName": "TSG_08-2017_特种设备使用管理规则摘要.md",
+      "title": "特种设备使用管理规则摘要",
+      "headings": [
+        "TSG 08—2017《特种设备使用管理规则》摘要",
+        "安全管理负责人"
+      ],
+      "sectionTitle": "安全管理负责人",
+      "content": "安全管理负责人通常是单位最高管理层中主管特种设备使用安全管理的人员，主要职责包括：\n\n- 协助主要负责人履行安全领导职责；\n- 组织制定安全管理制度；\n- 组织制定事故应急专项预案并开展演练；\n- 检查管理工作实施情况；\n- 组织隐患排查并提出处理意见；\n- 在需要停止使用时作出相应决定并报告主要负责人。",
+      "contentWithContext": "文档标题：特种设备使用管理规则摘要\n章节：TSG 08—2017《特种设备使用管理规则》摘要 > 安全管理负责人\n正文：安全管理负责人通常是单位最高管理层中主管特种设备使用安全管理的人员，主要职责包括：\n\n- 协助主要负责人履行安全领导职责；\n- 组织制定安全管理制度；\n- 组织制定事故应急专项预案并开展演练；\n- 检查管理工作实施情况；\n- 组织隐患排查并提出处理意见；\n- 在需要停止使用时作出相应决定并报告主要负责人。",
+      "charCount": 153,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "特种设备使用管理规则摘要",
+        "document_no": "TSG 08-2017",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "published_at": "2017-01-16",
+        "source_authority": "原国家质量监督检验检疫总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/202006/P020200622398887853634.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "ef0cd3e9a1d237ef51f1aae0c479bc7d8f253665f4efd7b43550554a6962f0df",
+      "documentId": "8f6b38eb84bf59b47ff667101f824b5bc0eb042880e15eaffbf297fe78cda2da",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_08-2017_特种设备使用管理规则摘要.md",
+      "fileName": "TSG_08-2017_特种设备使用管理规则摘要.md",
+      "title": "特种设备使用管理规则摘要",
+      "headings": [
+        "TSG 08—2017《特种设备使用管理规则》摘要",
+        "安全管理员"
+      ],
+      "sectionTitle": "安全管理员",
+      "content": "安全管理员具体负责设备使用安全管理，包括：\n\n- 建立安全技术档案；\n- 办理使用登记；\n- 组织制定操作规程；\n- 开展安全教育和技能培训；\n- 组织定期自行检查；\n- 编制定期检验计划，推动检验和隐患治理；\n- 处理和报告隐患，紧急时决定停止使用；\n- 制止违章行为。",
+      "contentWithContext": "文档标题：特种设备使用管理规则摘要\n章节：TSG 08—2017《特种设备使用管理规则》摘要 > 安全管理员\n正文：安全管理员具体负责设备使用安全管理，包括：\n\n- 建立安全技术档案；\n- 办理使用登记；\n- 组织制定操作规程；\n- 开展安全教育和技能培训；\n- 组织定期自行检查；\n- 编制定期检验计划，推动检验和隐患治理；\n- 处理和报告隐患，紧急时决定停止使用；\n- 制止违章行为。",
+      "charCount": 136,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "特种设备使用管理规则摘要",
+        "document_no": "TSG 08-2017",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "published_at": "2017-01-16",
+        "source_authority": "原国家质量监督检验检疫总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/202006/P020200622398887853634.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "b4cba112d77c3c975618c98a628f935e0966fa1b2caf10f2a839f3c9137c2a6e",
+      "documentId": "8f6b38eb84bf59b47ff667101f824b5bc0eb042880e15eaffbf297fe78cda2da",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_08-2017_特种设备使用管理规则摘要.md",
+      "fileName": "TSG_08-2017_特种设备使用管理规则摘要.md",
+      "title": "特种设备使用管理规则摘要",
+      "headings": [
+        "TSG 08—2017《特种设备使用管理规则》摘要",
+        "安全管理制度"
+      ],
+      "sectionTitle": "安全管理制度",
+      "content": "使用单位的制度体系至少应覆盖：\n\n- 管理机构和人员职责；\n- 经常性维护保养、定期自行检查和记录；\n- 使用登记和定期检验；\n- 隐患排查治理；\n- 人员管理和培训；\n- 采购、安装、改造、修理和报废；\n- 应急救援；\n- 事故报告与处理。",
+      "contentWithContext": "文档标题：特种设备使用管理规则摘要\n章节：TSG 08—2017《特种设备使用管理规则》摘要 > 安全管理制度\n正文：使用单位的制度体系至少应覆盖：\n\n- 管理机构和人员职责；\n- 经常性维护保养、定期自行检查和记录；\n- 使用登记和定期检验；\n- 隐患排查治理；\n- 人员管理和培训；\n- 采购、安装、改造、修理和报废；\n- 应急救援；\n- 事故报告与处理。",
+      "charCount": 121,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "特种设备使用管理规则摘要",
+        "document_no": "TSG 08-2017",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "published_at": "2017-01-16",
+        "source_authority": "原国家质量监督检验检疫总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/202006/P020200622398887853634.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "c151181721345d74bc188ebf265af13e247c54deac07d5b68435932c229edec7",
+      "documentId": "8f6b38eb84bf59b47ff667101f824b5bc0eb042880e15eaffbf297fe78cda2da",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_08-2017_特种设备使用管理规则摘要.md",
+      "fileName": "TSG_08-2017_特种设备使用管理规则摘要.md",
+      "title": "特种设备使用管理规则摘要",
+      "headings": [
+        "TSG 08—2017《特种设备使用管理规则》摘要",
+        "操作规程"
+      ],
+      "sectionTitle": "操作规程",
+      "content": "操作规程应结合设备运行特点编写，通常包括：\n\n- 运行参数；\n- 操作程序和方法；\n- 维护保养要求；\n- 安全注意事项；\n- 巡回检查；\n- 异常情况处置；\n- 相应记录。",
+      "contentWithContext": "文档标题：特种设备使用管理规则摘要\n章节：TSG 08—2017《特种设备使用管理规则》摘要 > 操作规程\n正文：操作规程应结合设备运行特点编写，通常包括：\n\n- 运行参数；\n- 操作程序和方法；\n- 维护保养要求；\n- 安全注意事项；\n- 巡回检查；\n- 异常情况处置；\n- 相应记录。",
+      "charCount": 87,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 4,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "特种设备使用管理规则摘要",
+        "document_no": "TSG 08-2017",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "published_at": "2017-01-16",
+        "source_authority": "原国家质量监督检验检疫总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/202006/P020200622398887853634.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "b26a46ed0660df18121085628b86e7ab17ca2a8e60312869a1852a215883a12b",
+      "documentId": "8f6b38eb84bf59b47ff667101f824b5bc0eb042880e15eaffbf297fe78cda2da",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_08-2017_特种设备使用管理规则摘要.md",
+      "fileName": "TSG_08-2017_特种设备使用管理规则摘要.md",
+      "title": "特种设备使用管理规则摘要",
+      "headings": [
+        "TSG 08—2017《特种设备使用管理规则》摘要",
+        "维护保养和自行检查"
+      ],
+      "sectionTitle": "维护保养和自行检查",
+      "content": "使用单位应根据设备特点和使用状态进行经常性维护保养。发现异常应及时处理并记录。\n\n定期自行检查的时间、内容和要求应符合相关安全技术规范以及产品使用维护保养说明。不同设备的检查周期不能仅由企业统一模板决定。",
+      "contentWithContext": "文档标题：特种设备使用管理规则摘要\n章节：TSG 08—2017《特种设备使用管理规则》摘要 > 维护保养和自行检查\n正文：使用单位应根据设备特点和使用状态进行经常性维护保养。发现异常应及时处理并记录。\n\n定期自行检查的时间、内容和要求应符合相关安全技术规范以及产品使用维护保养说明。不同设备的检查周期不能仅由企业统一模板决定。",
+      "charCount": 102,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 5,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "特种设备使用管理规则摘要",
+        "document_no": "TSG 08-2017",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "published_at": "2017-01-16",
+        "source_authority": "原国家质量监督检验检疫总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/202006/P020200622398887853634.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "77e51f92c925cafabcb97d9d08d67f4240d2ad18c491be59ec47347ec2c6b979",
+      "documentId": "8f6b38eb84bf59b47ff667101f824b5bc0eb042880e15eaffbf297fe78cda2da",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_08-2017_特种设备使用管理规则摘要.md",
+      "fileName": "TSG_08-2017_特种设备使用管理规则摘要.md",
+      "title": "特种设备使用管理规则摘要",
+      "headings": [
+        "TSG 08—2017《特种设备使用管理规则》摘要",
+        "RAG 使用提示"
+      ],
+      "sectionTitle": "RAG 使用提示",
+      "content": "回答“谁负责”“要建立什么制度”“日常管理包含什么”时优先检索本文件。回答压力容器具体检查项目时，应进一步检索 TSG 21 摘要和巡检文件。",
+      "contentWithContext": "文档标题：特种设备使用管理规则摘要\n章节：TSG 08—2017《特种设备使用管理规则》摘要 > RAG 使用提示\n正文：回答“谁负责”“要建立什么制度”“日常管理包含什么”时优先检索本文件。回答压力容器具体检查项目时，应进一步检索 TSG 21 摘要和巡检文件。",
+      "charCount": 71,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 6,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "特种设备使用管理规则摘要",
+        "document_no": "TSG 08-2017",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "all_special_equipment"
+        ],
+        "status": "effective",
+        "published_at": "2017-01-16",
+        "source_authority": "原国家质量监督检验检疫总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/202006/P020200622398887853634.pdf",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "6d3f8d0eaac30797f30c7ce90726898b7d1840a75f325bf9c8947cb737d7e902",
+      "documentId": "b92dfc3770bfd55cc52dba3bd01d86ef5c8758ef017dc73db8518f73c45a7f54",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "fileName": "TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "title": "固定式压力容器使用管理与检查摘要",
+      "headings": [
+        "TSG 21—2016 固定式压力容器使用管理与检查摘要",
+        "使用单位义务"
+      ],
+      "sectionTitle": "使用单位义务",
+      "content": "使用单位应按照 TSG 08 的要求对压力容器进行使用安全管理，包括设置或明确管理职责、配备人员、办理使用登记、建立制度、制定操作规程以及开展检查。",
+      "contentWithContext": "文档标题：固定式压力容器使用管理与检查摘要\n章节：TSG 21—2016 固定式压力容器使用管理与检查摘要 > 使用单位义务\n正文：使用单位应按照 TSG 08 的要求对压力容器进行使用安全管理，包括设置或明确管理职责、配备人员、办理使用登记、建立制度、制定操作规程以及开展检查。",
+      "charCount": 74,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "固定式压力容器使用管理与检查摘要",
+        "document_no": "TSG 21-2016",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "status": "effective_with_amendment",
+        "effective_at": "2016-10-01",
+        "amendment": {
+          "document": "第1号修改单",
+          "effective_at": "2021-06-01"
+        },
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/aqjsgf/201906/P020190621529714648457.pdf",
+        "amendment_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/samrgkml/nsjg/tzsbj/202101/W020210107367370103117.pdf",
+        "updated_at": "2026-06-17",
+        "version_note": "2025年修订稿为征求意见稿，未纳入现行知识",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "a999e1946182ab7dfebd7b68f4743d44887cd6aacf4afd1462f3448747876e28",
+      "documentId": "b92dfc3770bfd55cc52dba3bd01d86ef5c8758ef017dc73db8518f73c45a7f54",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "fileName": "TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "title": "固定式压力容器使用管理与检查摘要",
+      "headings": [
+        "TSG 21—2016 固定式压力容器使用管理与检查摘要",
+        "操作规程"
+      ],
+      "sectionTitle": "操作规程",
+      "content": "压力容器操作规程至少应明确：\n\n- 工作压力、最高或最低工作温度等工艺参数；\n- 开车、停车等岗位操作方法和注意事项；\n- 运行中重点检查的项目和部位；\n- 可能出现的异常现象及防止措施；\n- 紧急情况的处置和报告程序。",
+      "contentWithContext": "文档标题：固定式压力容器使用管理与检查摘要\n章节：TSG 21—2016 固定式压力容器使用管理与检查摘要 > 操作规程\n正文：压力容器操作规程至少应明确：\n\n- 工作压力、最高或最低工作温度等工艺参数；\n- 开车、停车等岗位操作方法和注意事项；\n- 运行中重点检查的项目和部位；\n- 可能出现的异常现象及防止措施；\n- 紧急情况的处置和报告程序。",
+      "charCount": 110,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "固定式压力容器使用管理与检查摘要",
+        "document_no": "TSG 21-2016",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "status": "effective_with_amendment",
+        "effective_at": "2016-10-01",
+        "amendment": {
+          "document": "第1号修改单",
+          "effective_at": "2021-06-01"
+        },
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/aqjsgf/201906/P020190621529714648457.pdf",
+        "amendment_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/samrgkml/nsjg/tzsbj/202101/W020210107367370103117.pdf",
+        "updated_at": "2026-06-17",
+        "version_note": "2025年修订稿为征求意见稿，未纳入现行知识",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "3375463b3419eefc7f9437782c80eb003e85beb60c10849c46459d5f3c15bc50",
+      "documentId": "b92dfc3770bfd55cc52dba3bd01d86ef5c8758ef017dc73db8518f73c45a7f54",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "fileName": "TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "title": "固定式压力容器使用管理与检查摘要",
+      "headings": [
+        "TSG 21—2016 固定式压力容器使用管理与检查摘要",
+        "经常性维护保养"
+      ],
+      "sectionTitle": "经常性维护保养",
+      "content": "使用单位应建立压力容器装置巡检制度，对下列对象进行维护保养：\n\n- 压力容器本体；\n- 安全附件和装卸附件；\n- 安全保护装置；\n- 测量调控装置；\n- 附属仪器仪表。\n\n异常应及时处理并记录，确保设备处于正常使用状态。",
+      "contentWithContext": "文档标题：固定式压力容器使用管理与检查摘要\n章节：TSG 21—2016 固定式压力容器使用管理与检查摘要 > 经常性维护保养\n正文：使用单位应建立压力容器装置巡检制度，对下列对象进行维护保养：\n\n- 压力容器本体；\n- 安全附件和装卸附件；\n- 安全保护装置；\n- 测量调控装置；\n- 附属仪器仪表。\n\n异常应及时处理并记录，确保设备处于正常使用状态。",
+      "charCount": 110,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "固定式压力容器使用管理与检查摘要",
+        "document_no": "TSG 21-2016",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "status": "effective_with_amendment",
+        "effective_at": "2016-10-01",
+        "amendment": {
+          "document": "第1号修改单",
+          "effective_at": "2021-06-01"
+        },
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/aqjsgf/201906/P020190621529714648457.pdf",
+        "amendment_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/samrgkml/nsjg/tzsbj/202101/W020210107367370103117.pdf",
+        "updated_at": "2026-06-17",
+        "version_note": "2025年修订稿为征求意见稿，未纳入现行知识",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "6d7df980eb9eb0458a7bea2cdf2b3436c6497092d86fde7799a3116296579642",
+      "documentId": "b92dfc3770bfd55cc52dba3bd01d86ef5c8758ef017dc73db8518f73c45a7f54",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "fileName": "TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "title": "固定式压力容器使用管理与检查摘要",
+      "headings": [
+        "TSG 21—2016 固定式压力容器使用管理与检查摘要",
+        "月度检查"
+      ],
+      "sectionTitle": "月度检查",
+      "content": "每月至少进行一次月度检查并记录。年度检查与月度检查时间重合时，可不重复进行月度检查。\n\n月度检查重点包括：\n\n- 容器本体及附件是否完好；\n- 安全保护和测量调控装置是否正常；\n- 各密封面是否泄漏；\n- 是否存在其他异常情况。",
+      "contentWithContext": "文档标题：固定式压力容器使用管理与检查摘要\n章节：TSG 21—2016 固定式压力容器使用管理与检查摘要 > 月度检查\n正文：每月至少进行一次月度检查并记录。年度检查与月度检查时间重合时，可不重复进行月度检查。\n\n月度检查重点包括：\n\n- 容器本体及附件是否完好；\n- 安全保护和测量调控装置是否正常；\n- 各密封面是否泄漏；\n- 是否存在其他异常情况。",
+      "charCount": 114,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "固定式压力容器使用管理与检查摘要",
+        "document_no": "TSG 21-2016",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "status": "effective_with_amendment",
+        "effective_at": "2016-10-01",
+        "amendment": {
+          "document": "第1号修改单",
+          "effective_at": "2021-06-01"
+        },
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/aqjsgf/201906/P020190621529714648457.pdf",
+        "amendment_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/samrgkml/nsjg/tzsbj/202101/W020210107367370103117.pdf",
+        "updated_at": "2026-06-17",
+        "version_note": "2025年修订稿为征求意见稿，未纳入现行知识",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "38ae83ea2a37c18bc9c5987527271f819c4ee278a428eef09e31a3efdaf28c59",
+      "documentId": "b92dfc3770bfd55cc52dba3bd01d86ef5c8758ef017dc73db8518f73c45a7f54",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "fileName": "TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "title": "固定式压力容器使用管理与检查摘要",
+      "headings": [
+        "TSG 21—2016 固定式压力容器使用管理与检查摘要",
+        "年度检查"
+      ],
+      "sectionTitle": "年度检查",
+      "content": "每年至少进行一次年度检查。检查完成后，应分析压力容器使用安全状况，并及时消除发现的隐患。\n\n年度检查可以由使用单位安全管理人员组织经过专业培训的作业人员实施，也可以委托有资质的特种设备检验机构。",
+      "contentWithContext": "文档标题：固定式压力容器使用管理与检查摘要\n章节：TSG 21—2016 固定式压力容器使用管理与检查摘要 > 年度检查\n正文：每年至少进行一次年度检查。检查完成后，应分析压力容器使用安全状况，并及时消除发现的隐患。\n\n年度检查可以由使用单位安全管理人员组织经过专业培训的作业人员实施，也可以委托有资质的特种设备检验机构。",
+      "charCount": 97,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 4,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "固定式压力容器使用管理与检查摘要",
+        "document_no": "TSG 21-2016",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "status": "effective_with_amendment",
+        "effective_at": "2016-10-01",
+        "amendment": {
+          "document": "第1号修改单",
+          "effective_at": "2021-06-01"
+        },
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/aqjsgf/201906/P020190621529714648457.pdf",
+        "amendment_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/samrgkml/nsjg/tzsbj/202101/W020210107367370103117.pdf",
+        "updated_at": "2026-06-17",
+        "version_note": "2025年修订稿为征求意见稿，未纳入现行知识",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "30361e47826a6b47a8f5d6679a3e7bac37b6cb62083473d590f662640b9fd6f3",
+      "documentId": "b92dfc3770bfd55cc52dba3bd01d86ef5c8758ef017dc73db8518f73c45a7f54",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "fileName": "TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "title": "固定式压力容器使用管理与检查摘要",
+      "headings": [
+        "TSG 21—2016 固定式压力容器使用管理与检查摘要",
+        "安全附件和仪表"
+      ],
+      "sectionTitle": "安全附件和仪表",
+      "content": "年度检查涉及：\n\n- 安全阀、爆破片装置、安全联锁装置；\n- 压力表、液位计、测温仪表；\n- 与设备安全运行相关的其他装置。",
+      "contentWithContext": "文档标题：固定式压力容器使用管理与检查摘要\n章节：TSG 21—2016 固定式压力容器使用管理与检查摘要 > 安全附件和仪表\n正文：年度检查涉及：\n\n- 安全阀、爆破片装置、安全联锁装置；\n- 压力表、液位计、测温仪表；\n- 与设备安全运行相关的其他装置。",
+      "charCount": 62,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 5,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "固定式压力容器使用管理与检查摘要",
+        "document_no": "TSG 21-2016",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "status": "effective_with_amendment",
+        "effective_at": "2016-10-01",
+        "amendment": {
+          "document": "第1号修改单",
+          "effective_at": "2021-06-01"
+        },
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/aqjsgf/201906/P020190621529714648457.pdf",
+        "amendment_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/samrgkml/nsjg/tzsbj/202101/W020210107367370103117.pdf",
+        "updated_at": "2026-06-17",
+        "version_note": "2025年修订稿为征求意见稿，未纳入现行知识",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "2e67bea09cebcdb7c67960aa1fa06ec2e95bd8c5bb08aa0c1bed96167248a30f",
+      "documentId": "b92dfc3770bfd55cc52dba3bd01d86ef5c8758ef017dc73db8518f73c45a7f54",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "fileName": "TSG_21-2016_固定式压力容器使用管理与检查摘要.md",
+      "title": "固定式压力容器使用管理与检查摘要",
+      "headings": [
+        "TSG 21—2016 固定式压力容器使用管理与检查摘要",
+        "版本说明"
+      ],
+      "sectionTitle": "版本说明",
+      "content": "TSG 21—2016 第1号修改单自 2021-06-01 起施行，主要修改材料、设计、制造和监督检验等条款。2025年公开的修订稿仅为征求意见稿，不能作为正式生效依据。",
+      "contentWithContext": "文档标题：固定式压力容器使用管理与检查摘要\n章节：TSG 21—2016 固定式压力容器使用管理与检查摘要 > 版本说明\n正文：TSG 21—2016 第1号修改单自 2021-06-01 起施行，主要修改材料、设计、制造和监督检验等条款。2025年公开的修订稿仅为征求意见稿，不能作为正式生效依据。",
+      "charCount": 86,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 6,
+      "documentChunkCount": 7,
+      "metadata": {
+        "title": "固定式压力容器使用管理与检查摘要",
+        "document_no": "TSG 21-2016",
+        "document_type": "safety_technical_specification_summary",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "status": "effective_with_amendment",
+        "effective_at": "2016-10-01",
+        "amendment": {
+          "document": "第1号修改单",
+          "effective_at": "2021-06-01"
+        },
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/tzsbj/zcfg/aqjsgf/aqjsgf/201906/P020190621529714648457.pdf",
+        "amendment_url": "https://www.samr.gov.cn/cms_files/filemanager/samr/www/samrnew/samrgkml/nsjg/tzsbj/202101/W020210107367370103117.pdf",
+        "updated_at": "2026-06-17",
+        "version_note": "2025年修订稿为征求意见稿，未纳入现行知识",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "97354869bab81d17d745800d1b88e40caadaffa59bedca5191d906cb9d812455",
+      "documentId": "1cd037e397f49bb2911bc20ebcdb148539052c65850730af4772a5fef921357c",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_31-2025_工业管道安全技术规程概览.md",
+      "fileName": "TSG_31-2025_工业管道安全技术规程概览.md",
+      "title": "工业管道安全技术规程概览",
+      "headings": [
+        "TSG 31—2025《工业管道安全技术规程》概览",
+        "生效和替代关系"
+      ],
+      "sectionTitle": "生效和替代关系",
+      "content": "TSG 31—2025 自 2026-01-01 起施行。该规程整合修订了原《压力管道安全技术监察规程—工业管道》TSG D0001—2009、《压力管道定期检验规则—工业管道》TSG D7005—2018 等安全技术规范。\n\n知识库中涉及工业管道的问题，不应继续默认引用已被整合替代的旧规范。",
+      "contentWithContext": "文档标题：工业管道安全技术规程概览\n章节：TSG 31—2025《工业管道安全技术规程》概览 > 生效和替代关系\n正文：TSG 31—2025 自 2026-01-01 起施行。该规程整合修订了原《压力管道安全技术监察规程—工业管道》TSG D0001—2009、《压力管道定期检验规则—工业管道》TSG D7005—2018 等安全技术规范。\n\n知识库中涉及工业管道的问题，不应继续默认引用已被整合替代的旧规范。",
+      "charCount": 147,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "工业管道安全技术规程概览",
+        "document_no": "TSG 31-2025",
+        "document_type": "safety_technical_specification_overview",
+        "equipment_types": [
+          "industrial_pressure_pipeline"
+        ],
+        "status": "effective",
+        "published_at": "2025-09-22",
+        "effective_at": "2026-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/tzsbs/art/2025/art_8d38f20133a94308b9dd72e160c0692b.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "2013aabf28de30787e5747d13f00b8edcf18320e6d3433d7b59b50ee70995e5e",
+      "documentId": "1cd037e397f49bb2911bc20ebcdb148539052c65850730af4772a5fef921357c",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_31-2025_工业管道安全技术规程概览.md",
+      "fileName": "TSG_31-2025_工业管道安全技术规程概览.md",
+      "title": "工业管道安全技术规程概览",
+      "headings": [
+        "TSG 31—2025《工业管道安全技术规程》概览",
+        "主要覆盖内容"
+      ],
+      "sectionTitle": "主要覆盖内容",
+      "content": "规程进一步明确工业管道适用范围，并覆盖动力管道、制冷管道、非金属管道、高压管道和机场供油管道等专项要求。\n\n主要内容包括：\n\n- 管道组成件、管道系统和支撑件设计；\n- 安装环节的焊接、热处理、现场制造；\n- 无损检测和耐压试验；\n- 元件制造以及安装、改造、重大修理监督检验；\n- 使用登记、使用管理和定期检验。",
+      "contentWithContext": "文档标题：工业管道安全技术规程概览\n章节：TSG 31—2025《工业管道安全技术规程》概览 > 主要覆盖内容\n正文：规程进一步明确工业管道适用范围，并覆盖动力管道、制冷管道、非金属管道、高压管道和机场供油管道等专项要求。\n\n主要内容包括：\n\n- 管道组成件、管道系统和支撑件设计；\n- 安装环节的焊接、热处理、现场制造；\n- 无损检测和耐压试验；\n- 元件制造以及安装、改造、重大修理监督检验；\n- 使用登记、使用管理和定期检验。",
+      "charCount": 157,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "工业管道安全技术规程概览",
+        "document_no": "TSG 31-2025",
+        "document_type": "safety_technical_specification_overview",
+        "equipment_types": [
+          "industrial_pressure_pipeline"
+        ],
+        "status": "effective",
+        "published_at": "2025-09-22",
+        "effective_at": "2026-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/tzsbs/art/2025/art_8d38f20133a94308b9dd72e160c0692b.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "6cf2e188de44ed07bd6e74f3e1441dfa33a51c1a2bd947a838e6392963428501",
+      "documentId": "1cd037e397f49bb2911bc20ebcdb148539052c65850730af4772a5fef921357c",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_31-2025_工业管道安全技术规程概览.md",
+      "fileName": "TSG_31-2025_工业管道安全技术规程概览.md",
+      "title": "工业管道安全技术规程概览",
+      "headings": [
+        "TSG 31—2025《工业管道安全技术规程》概览",
+        "与本项目的关系"
+      ],
+      "sectionTitle": "与本项目的关系",
+      "content": "数字孪生项目中的设备连接管线不能全部视为普通工艺线。是否属于受监管工业管道，需要结合介质、压力、管径、用途、装置边界和适用范围判断。\n\n系统可保存以下管道字段：\n\n- 管道编号和名称；\n- 起点设备、终点设备；\n- 管道级别；\n- 设计压力、工作压力；\n- 设计温度、工作温度；\n- 介质；\n- 公称直径、壁厚、长度和材质；\n- 安装、投用、检验日期；\n- 单线图或轴测图编号。",
+      "contentWithContext": "文档标题：工业管道安全技术规程概览\n章节：TSG 31—2025《工业管道安全技术规程》概览 > 与本项目的关系\n正文：数字孪生项目中的设备连接管线不能全部视为普通工艺线。是否属于受监管工业管道，需要结合介质、压力、管径、用途、装置边界和适用范围判断。\n\n系统可保存以下管道字段：\n\n- 管道编号和名称；\n- 起点设备、终点设备；\n- 管道级别；\n- 设计压力、工作压力；\n- 设计温度、工作温度；\n- 介质；\n- 公称直径、壁厚、长度和材质；\n- 安装、投用、检验日期；\n- 单线图或轴测图编号。",
+      "charCount": 189,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "工业管道安全技术规程概览",
+        "document_no": "TSG 31-2025",
+        "document_type": "safety_technical_specification_overview",
+        "equipment_types": [
+          "industrial_pressure_pipeline"
+        ],
+        "status": "effective",
+        "published_at": "2025-09-22",
+        "effective_at": "2026-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/tzsbs/art/2025/art_8d38f20133a94308b9dd72e160c0692b.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "639628df910c18056ed780196fdc409c642dab7c8d5feeb7ee1bee7aaecffc87",
+      "documentId": "1cd037e397f49bb2911bc20ebcdb148539052c65850730af4772a5fef921357c",
+      "sourcePath": "special-equipment-kb-starter/01_法规与规范/TSG_31-2025_工业管道安全技术规程概览.md",
+      "fileName": "TSG_31-2025_工业管道安全技术规程概览.md",
+      "title": "工业管道安全技术规程概览",
+      "headings": [
+        "TSG 31—2025《工业管道安全技术规程》概览",
+        "版本提醒"
+      ],
+      "sectionTitle": "版本提醒",
+      "content": "本文件只做规程概览。涉及管道分级、检验周期、试验参数和材料要求时，应查阅 TSG 31—2025 正文。",
+      "contentWithContext": "文档标题：工业管道安全技术规程概览\n章节：TSG 31—2025《工业管道安全技术规程》概览 > 版本提醒\n正文：本文件只做规程概览。涉及管道分级、检验周期、试验参数和材料要求时，应查阅 TSG 31—2025 正文。",
+      "charCount": 52,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "工业管道安全技术规程概览",
+        "document_no": "TSG 31-2025",
+        "document_type": "safety_technical_specification_overview",
+        "equipment_types": [
+          "industrial_pressure_pipeline"
+        ],
+        "status": "effective",
+        "published_at": "2025-09-22",
+        "effective_at": "2026-01-01",
+        "source_authority": "国家市场监督管理总局",
+        "source_url": "https://www.samr.gov.cn/zw/zfxxgk/fdzdgknr/tzsbs/art/2025/art_8d38f20133a94308b9dd72e160c0692b.html",
+        "updated_at": "2026-06-17",
+        "category": "01_法规与规范"
+      }
+    },
+    {
+      "id": "53e1df733b10b41d9a7227663fc4c10c1cdc5438e99561095e38f4f49da084fb",
+      "documentId": "1765d893cd1e39928ed20a7108da3fed8dfe62dfc30db77cbde304f9ef520a6a",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/安全阀检查与异常处理.md",
+      "fileName": "安全阀检查与异常处理.md",
+      "title": "安全阀检查与异常处理",
+      "headings": [
+        "安全阀检查与异常处理",
+        "日常和年度检查重点"
+      ],
+      "sectionTitle": "日常和年度检查重点",
+      "content": "检查安全阀是否与设备和介质匹配，是否处于校验有效期内。\n\n检查铅封、防止调整机构被随意改变的装置以及杠杆、重锤等结构是否完好。\n\n如果安全阀与排放口之间设有截止阀，应确认其处于规定的全开位置并具有可靠的锁定或铅封措施。排放管应通畅，防雨设施应完好。\n\n检查阀体和连接部位是否泄漏、腐蚀、结霜、堵塞或者受到外力。",
+      "contentWithContext": "文档标题：安全阀检查与异常处理\n章节：安全阀检查与异常处理 > 日常和年度检查重点\n正文：检查安全阀是否与设备和介质匹配，是否处于校验有效期内。\n\n检查铅封、防止调整机构被随意改变的装置以及杠杆、重锤等结构是否完好。\n\n如果安全阀与排放口之间设有截止阀，应确认其处于规定的全开位置并具有可靠的锁定或铅封措施。排放管应通畅，防雨设施应完好。\n\n检查阀体和连接部位是否泄漏、腐蚀、结霜、堵塞或者受到外力。",
+      "charCount": 155,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 5,
+      "metadata": {
+        "title": "安全阀检查与异常处理",
+        "document_type": "inspection_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "component_types": [
+          "safety_valve"
+        ],
+        "risk_types": [
+          "overpressure",
+          "leakage",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 21-2016",
+          "GB 45067-2024"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "b66bfd579b181e9f574b78f672565de4b4ec0f3ea2f6882e9edb778db9bfbca9",
+      "documentId": "1765d893cd1e39928ed20a7108da3fed8dfe62dfc30db77cbde304f9ef520a6a",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/安全阀检查与异常处理.md",
+      "fileName": "安全阀检查与异常处理.md",
+      "title": "安全阀检查与异常处理",
+      "headings": [
+        "安全阀检查与异常处理",
+        "校验周期"
+      ],
+      "sectionTitle": "校验周期",
+      "content": "TSG 21—2016 规定安全阀一般每年至少校验一次。只有满足规范规定的特殊条件并履行批准程序时，才可能延长校验周期。\n\n知识库回答不能因为设备运行平稳，就推断安全阀可以延期校验。",
+      "contentWithContext": "文档标题：安全阀检查与异常处理\n章节：安全阀检查与异常处理 > 校验周期\n正文：TSG 21—2016 规定安全阀一般每年至少校验一次。只有满足规范规定的特殊条件并履行批准程序时，才可能延长校验周期。\n\n知识库回答不能因为设备运行平稳，就推断安全阀可以延期校验。",
+      "charCount": 91,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 5,
+      "metadata": {
+        "title": "安全阀检查与异常处理",
+        "document_type": "inspection_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "component_types": [
+          "safety_valve"
+        ],
+        "risk_types": [
+          "overpressure",
+          "leakage",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 21-2016",
+          "GB 45067-2024"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "e4da22f528576f634a7a4fc9a29f807ae51bd3d9bec78b14e244dcce209a9d17",
+      "documentId": "1765d893cd1e39928ed20a7108da3fed8dfe62dfc30db77cbde304f9ef520a6a",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/安全阀检查与异常处理.md",
+      "fileName": "安全阀检查与异常处理.md",
+      "title": "安全阀检查与异常处理",
+      "headings": [
+        "安全阀检查与异常处理",
+        "需要限期改正并采取安全措施的典型情况"
+      ],
+      "sectionTitle": "需要限期改正并采取安全措施的典型情况",
+      "content": "- 选型错误；\n- 超过校验有效期；\n- 铅封损坏；\n- 安全阀泄漏。\n\n如果不能在整改期间保证安全，应暂停压力容器使用。",
+      "contentWithContext": "文档标题：安全阀检查与异常处理\n章节：安全阀检查与异常处理 > 需要限期改正并采取安全措施的典型情况\n正文：- 选型错误；\n- 超过校验有效期；\n- 铅封损坏；\n- 安全阀泄漏。\n\n如果不能在整改期间保证安全，应暂停压力容器使用。",
+      "charCount": 61,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 5,
+      "metadata": {
+        "title": "安全阀检查与异常处理",
+        "document_type": "inspection_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "component_types": [
+          "safety_valve"
+        ],
+        "risk_types": [
+          "overpressure",
+          "leakage",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 21-2016",
+          "GB 45067-2024"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "7a48c3c078e47ff493d962444acf5719a2f433d851dd5ce207eadb4622252d5e",
+      "documentId": "1765d893cd1e39928ed20a7108da3fed8dfe62dfc30db77cbde304f9ef520a6a",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/安全阀检查与异常处理.md",
+      "fileName": "安全阀检查与异常处理.md",
+      "title": "安全阀检查与异常处理",
+      "headings": [
+        "安全阀检查与异常处理",
+        "重大事故隐患提示"
+      ],
+      "sectionTitle": "重大事故隐患提示",
+      "content": "固定式或移动式压力容器的安全阀缺失或者失效，仍继续使用的，属于 GB 45067—2024 明确列出的重大事故隐患情形。\n\n系统发现以下描述时应高优先级告警：\n\n- “安全阀拆除后未恢复”；\n- “安全阀卡死/不起跳”；\n- “安全阀被盲板隔离”；\n- “安全阀根部阀关闭”；\n- “超期且无法确认功能”；\n- “安全阀失效仍继续运行”。",
+      "contentWithContext": "文档标题：安全阀检查与异常处理\n章节：安全阀检查与异常处理 > 重大事故隐患提示\n正文：固定式或移动式压力容器的安全阀缺失或者失效，仍继续使用的，属于 GB 45067—2024 明确列出的重大事故隐患情形。\n\n系统发现以下描述时应高优先级告警：\n\n- “安全阀拆除后未恢复”；\n- “安全阀卡死/不起跳”；\n- “安全阀被盲板隔离”；\n- “安全阀根部阀关闭”；\n- “超期且无法确认功能”；\n- “安全阀失效仍继续运行”。",
+      "charCount": 169,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 5,
+      "metadata": {
+        "title": "安全阀检查与异常处理",
+        "document_type": "inspection_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "component_types": [
+          "safety_valve"
+        ],
+        "risk_types": [
+          "overpressure",
+          "leakage",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 21-2016",
+          "GB 45067-2024"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "7ee5dca70e024b1086626c4c1eedadc2087fb2a3a8178f0f3158f2c9da23465d",
+      "documentId": "1765d893cd1e39928ed20a7108da3fed8dfe62dfc30db77cbde304f9ef520a6a",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/安全阀检查与异常处理.md",
+      "fileName": "安全阀检查与异常处理.md",
+      "title": "安全阀检查与异常处理",
+      "headings": [
+        "安全阀检查与异常处理",
+        "禁止性提示"
+      ],
+      "sectionTitle": "禁止性提示",
+      "content": "不要擅自调整整定压力，不要破坏铅封，不要在未采取可靠措施时拆卸安全阀，不要用堵塞、加重或者关闭根部阀的方法消除泄漏。",
+      "contentWithContext": "文档标题：安全阀检查与异常处理\n章节：安全阀检查与异常处理 > 禁止性提示\n正文：不要擅自调整整定压力，不要破坏铅封，不要在未采取可靠措施时拆卸安全阀，不要用堵塞、加重或者关闭根部阀的方法消除泄漏。",
+      "charCount": 58,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 4,
+      "documentChunkCount": 5,
+      "metadata": {
+        "title": "安全阀检查与异常处理",
+        "document_type": "inspection_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "component_types": [
+          "safety_valve"
+        ],
+        "risk_types": [
+          "overpressure",
+          "leakage",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 21-2016",
+          "GB 45067-2024"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "bbb40a24e8abd3ca4456e13f40d049819b3796b4c5ee703d439bd02ec390e772",
+      "documentId": "3d37c16fd74548cfe079b78f43bca40ca77808c59f20bcf1218fbdc4d98df6d7",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/固定式压力容器日常巡检指南.md",
+      "fileName": "固定式压力容器日常巡检指南.md",
+      "title": "固定式压力容器日常巡检指南",
+      "headings": [
+        "固定式压力容器日常巡检指南",
+        "巡检前确认"
+      ],
+      "sectionTitle": "巡检前确认",
+      "content": "确认设备编号、介质、设计参数、允许使用参数和当前运行状态。巡检人员应知道紧急停用条件和上报对象。\n\n不要在不了解介质危险特性、设备隔离状态和现场安全要求的情况下靠近泄漏点、拆卸附件或尝试带压处理。",
+      "contentWithContext": "文档标题：固定式压力容器日常巡检指南\n章节：固定式压力容器日常巡检指南 > 巡检前确认\n正文：确认设备编号、介质、设计参数、允许使用参数和当前运行状态。巡检人员应知道紧急停用条件和上报对象。\n\n不要在不了解介质危险特性、设备隔离状态和现场安全要求的情况下靠近泄漏点、拆卸附件或尝试带压处理。",
+      "charCount": 98,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "固定式压力容器日常巡检指南",
+        "document_type": "operational_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "leakage",
+          "overpressure",
+          "corrosion",
+          "deformation",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 08-2017",
+          "TSG 21-2016",
+          "国家市场监督管理总局令第74号"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "849fd74ccd9eff29aedab10b2bb5dbf9d755b3f9e34c7f2072c6728b5876f2a9",
+      "documentId": "3d37c16fd74548cfe079b78f43bca40ca77808c59f20bcf1218fbdc4d98df6d7",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/固定式压力容器日常巡检指南.md",
+      "fileName": "固定式压力容器日常巡检指南.md",
+      "title": "固定式压力容器日常巡检指南",
+      "headings": [
+        "固定式压力容器日常巡检指南",
+        "运行参数"
+      ],
+      "sectionTitle": "运行参数",
+      "content": "检查压力、温度、液位等是否处于设备允许范围，并与工艺设定值、历史趋势和同系统仪表进行对比。\n\n重点关注：\n\n- 参数超过上限或低于下限；\n- 参数短时间快速变化；\n- 仪表读数长时间完全不变；\n- 现场表与远传值明显不一致；\n- 多个相关参数之间逻辑矛盾。\n\n参数异常既可能来自真实工况，也可能来自传感器、取压管、阀门或通信故障。",
+      "contentWithContext": "文档标题：固定式压力容器日常巡检指南\n章节：固定式压力容器日常巡检指南 > 运行参数\n正文：检查压力、温度、液位等是否处于设备允许范围，并与工艺设定值、历史趋势和同系统仪表进行对比。\n\n重点关注：\n\n- 参数超过上限或低于下限；\n- 参数短时间快速变化；\n- 仪表读数长时间完全不变；\n- 现场表与远传值明显不一致；\n- 多个相关参数之间逻辑矛盾。\n\n参数异常既可能来自真实工况，也可能来自传感器、取压管、阀门或通信故障。",
+      "charCount": 165,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "固定式压力容器日常巡检指南",
+        "document_type": "operational_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "leakage",
+          "overpressure",
+          "corrosion",
+          "deformation",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 08-2017",
+          "TSG 21-2016",
+          "国家市场监督管理总局令第74号"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "f4d3f082f035b015add865c42360d64cdbd5906efaf16871cc10686057ed07c4",
+      "documentId": "3d37c16fd74548cfe079b78f43bca40ca77808c59f20bcf1218fbdc4d98df6d7",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/固定式压力容器日常巡检指南.md",
+      "fileName": "固定式压力容器日常巡检指南.md",
+      "title": "固定式压力容器日常巡检指南",
+      "headings": [
+        "固定式压力容器日常巡检指南",
+        "容器本体"
+      ],
+      "sectionTitle": "容器本体",
+      "content": "观察可见部位是否存在：\n\n- 鼓包、凹陷、变形或者异常位移；\n- 裂纹、机械损伤；\n- 局部或大面积腐蚀；\n- 防腐层、保温层破损；\n- 异常结霜、变色、过热痕迹；\n- 焊缝附近异常；\n- 铭牌不清、设备标识不一致。\n\n外观巡检不能替代壁厚测定、无损检测和定期检验。",
+      "contentWithContext": "文档标题：固定式压力容器日常巡检指南\n章节：固定式压力容器日常巡检指南 > 容器本体\n正文：观察可见部位是否存在：\n\n- 鼓包、凹陷、变形或者异常位移；\n- 裂纹、机械损伤；\n- 局部或大面积腐蚀；\n- 防腐层、保温层破损；\n- 异常结霜、变色、过热痕迹；\n- 焊缝附近异常；\n- 铭牌不清、设备标识不一致。\n\n外观巡检不能替代壁厚测定、无损检测和定期检验。",
+      "charCount": 133,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "固定式压力容器日常巡检指南",
+        "document_type": "operational_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "leakage",
+          "overpressure",
+          "corrosion",
+          "deformation",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 08-2017",
+          "TSG 21-2016",
+          "国家市场监督管理总局令第74号"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "e0c2e3866b3e1f6f109f6f9200820347345748c92964ae2dcf42f40f5182eb22",
+      "documentId": "3d37c16fd74548cfe079b78f43bca40ca77808c59f20bcf1218fbdc4d98df6d7",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/固定式压力容器日常巡检指南.md",
+      "fileName": "固定式压力容器日常巡检指南.md",
+      "title": "固定式压力容器日常巡检指南",
+      "headings": [
+        "固定式压力容器日常巡检指南",
+        "泄漏"
+      ],
+      "sectionTitle": "泄漏",
+      "content": "检查法兰、接管、阀门、密封面、人孔和仪表接口。可疑表现包括液滴、气味、嘶鸣、白雾、结霜、油污、锈迹冲刷和可燃或有毒气体报警。\n\n发现泄漏时应先判断介质危险性和泄漏程度，禁止未经评估直接紧固带压连接或者使用明火查漏。",
+      "contentWithContext": "文档标题：固定式压力容器日常巡检指南\n章节：固定式压力容器日常巡检指南 > 泄漏\n正文：检查法兰、接管、阀门、密封面、人孔和仪表接口。可疑表现包括液滴、气味、嘶鸣、白雾、结霜、油污、锈迹冲刷和可燃或有毒气体报警。\n\n发现泄漏时应先判断介质危险性和泄漏程度，禁止未经评估直接紧固带压连接或者使用明火查漏。",
+      "charCount": 107,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "固定式压力容器日常巡检指南",
+        "document_type": "operational_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "leakage",
+          "overpressure",
+          "corrosion",
+          "deformation",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 08-2017",
+          "TSG 21-2016",
+          "国家市场监督管理总局令第74号"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "a0d1041a95863054f14f831e70dfab2395818afbd2aceef0823584f25dc8d44b",
+      "documentId": "3d37c16fd74548cfe079b78f43bca40ca77808c59f20bcf1218fbdc4d98df6d7",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/固定式压力容器日常巡检指南.md",
+      "fileName": "固定式压力容器日常巡检指南.md",
+      "title": "固定式压力容器日常巡检指南",
+      "headings": [
+        "固定式压力容器日常巡检指南",
+        "支承和附属结构"
+      ],
+      "sectionTitle": "支承和附属结构",
+      "content": "检查基础、支座、地脚螺栓、鞍座、裙座、平台、爬梯和连接构件是否松动、开裂、腐蚀、下沉或者异常位移。\n\n同时观察相连管道是否对容器产生明显拉拽、振动或热位移约束。",
+      "contentWithContext": "文档标题：固定式压力容器日常巡检指南\n章节：固定式压力容器日常巡检指南 > 支承和附属结构\n正文：检查基础、支座、地脚螺栓、鞍座、裙座、平台、爬梯和连接构件是否松动、开裂、腐蚀、下沉或者异常位移。\n\n同时观察相连管道是否对容器产生明显拉拽、振动或热位移约束。",
+      "charCount": 80,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 4,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "固定式压力容器日常巡检指南",
+        "document_type": "operational_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "leakage",
+          "overpressure",
+          "corrosion",
+          "deformation",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 08-2017",
+          "TSG 21-2016",
+          "国家市场监督管理总局令第74号"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "2ab541287a672f95e31f8bf9ded6c7f66b80d5a0b284009da725f86f6c489343",
+      "documentId": "3d37c16fd74548cfe079b78f43bca40ca77808c59f20bcf1218fbdc4d98df6d7",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/固定式压力容器日常巡检指南.md",
+      "fileName": "固定式压力容器日常巡检指南.md",
+      "title": "固定式压力容器日常巡检指南",
+      "headings": [
+        "固定式压力容器日常巡检指南",
+        "安全附件和仪表"
+      ],
+      "sectionTitle": "安全附件和仪表",
+      "content": "检查安全阀、爆破片、压力表、液位计、测温仪表、报警和联锁装置是否在有效状态。具体要求参见本知识库对应专项文件。",
+      "contentWithContext": "文档标题：固定式压力容器日常巡检指南\n章节：固定式压力容器日常巡检指南 > 安全附件和仪表\n正文：检查安全阀、爆破片、压力表、液位计、测温仪表、报警和联锁装置是否在有效状态。具体要求参见本知识库对应专项文件。",
+      "charCount": 55,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 5,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "固定式压力容器日常巡检指南",
+        "document_type": "operational_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "leakage",
+          "overpressure",
+          "corrosion",
+          "deformation",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 08-2017",
+          "TSG 21-2016",
+          "国家市场监督管理总局令第74号"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "fd4aad5f392667744abae6e1894977a0a9eb4652afbdb52ae0c0304560496995",
+      "documentId": "3d37c16fd74548cfe079b78f43bca40ca77808c59f20bcf1218fbdc4d98df6d7",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/固定式压力容器日常巡检指南.md",
+      "fileName": "固定式压力容器日常巡检指南.md",
+      "title": "固定式压力容器日常巡检指南",
+      "headings": [
+        "固定式压力容器日常巡检指南",
+        "异常声响和振动"
+      ],
+      "sectionTitle": "异常声响和振动",
+      "content": "记录撞击声、摩擦声、汽蚀声、周期性脉动和异常振动。异常可能来源于两相流、管道振动、泵或压缩机传递、支承松动、内部构件脱落等。",
+      "contentWithContext": "文档标题：固定式压力容器日常巡检指南\n章节：固定式压力容器日常巡检指南 > 异常声响和振动\n正文：记录撞击声、摩擦声、汽蚀声、周期性脉动和异常振动。异常可能来源于两相流、管道振动、泵或压缩机传递、支承松动、内部构件脱落等。",
+      "charCount": 62,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 6,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "固定式压力容器日常巡检指南",
+        "document_type": "operational_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "leakage",
+          "overpressure",
+          "corrosion",
+          "deformation",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 08-2017",
+          "TSG 21-2016",
+          "国家市场监督管理总局令第74号"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "40b2dc2acf8ddf2cb0d5685eb567489e642db843c6c2fdf559c559891270f710",
+      "documentId": "3d37c16fd74548cfe079b78f43bca40ca77808c59f20bcf1218fbdc4d98df6d7",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/固定式压力容器日常巡检指南.md",
+      "fileName": "固定式压力容器日常巡检指南.md",
+      "title": "固定式压力容器日常巡检指南",
+      "headings": [
+        "固定式压力容器日常巡检指南",
+        "记录要求"
+      ],
+      "sectionTitle": "记录要求",
+      "content": "每次巡检应记录时间、设备、人员、运行参数、检查结果、异常描述、现场照片、临时措施、上报对象和处理状态。\n\n“正常”也应有记录。异常描述应写事实，不要只写“有问题”或“已处理”。",
+      "contentWithContext": "文档标题：固定式压力容器日常巡检指南\n章节：固定式压力容器日常巡检指南 > 记录要求\n正文：每次巡检应记录时间、设备、人员、运行参数、检查结果、异常描述、现场照片、临时措施、上报对象和处理状态。\n\n“正常”也应有记录。异常描述应写事实，不要只写“有问题”或“已处理”。",
+      "charCount": 88,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 7,
+      "documentChunkCount": 8,
+      "metadata": {
+        "title": "固定式压力容器日常巡检指南",
+        "document_type": "operational_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "leakage",
+          "overpressure",
+          "corrosion",
+          "deformation",
+          "safety_accessory_failure"
+        ],
+        "derived_from": [
+          "TSG 08-2017",
+          "TSG 21-2016",
+          "国家市场监督管理总局令第74号"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "bcccd9e30c14d928a1c6b0cd1170ed1d0ac22385ea3527c8e06e3b81534165d4",
+      "documentId": "5239a5fc5c24d2be9e1af3d67be4433f3629b56bfe18a19192ee9e5937ea52ec",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/压力表液位计测温仪表检查.md",
+      "fileName": "压力表液位计测温仪表检查.md",
+      "title": "压力表、液位计和测温仪表检查",
+      "headings": [
+        "压力表、液位计和测温仪表检查",
+        "压力表"
+      ],
+      "sectionTitle": "压力表",
+      "content": "检查压力表是否与介质、压力范围和现场环境相适应，并确认：\n\n- 检定或校准状态、有效期和封签符合要求；\n- 表盘玻璃完整、刻度清晰；\n- 精度等级和量程符合要求；\n- 指针无松动、弯曲、断裂或者卡滞；\n- 外壳无严重腐蚀；\n- 三通旋塞或针形阀的位置、开启标识和锁紧装置正常；\n- 同一系统的多个压力表读数基本一致。\n\n出现选型错误、玻璃破裂、刻度模糊、封签损坏、超过有效期、弹簧管泄漏、指针松动或损坏等情况时，应限期改正并采取有效安全措施；不能保证安全时应停止使用压力容器。",
+      "contentWithContext": "文档标题：压力表、液位计和测温仪表检查\n章节：压力表、液位计和测温仪表检查 > 压力表\n正文：检查压力表是否与介质、压力范围和现场环境相适应，并确认：\n\n- 检定或校准状态、有效期和封签符合要求；\n- 表盘玻璃完整、刻度清晰；\n- 精度等级和量程符合要求；\n- 指针无松动、弯曲、断裂或者卡滞；\n- 外壳无严重腐蚀；\n- 三通旋塞或针形阀的位置、开启标识和锁紧装置正常；\n- 同一系统的多个压力表读数基本一致。\n\n出现选型错误、玻璃破裂、刻度模糊、封签损坏、超过有效期、弹簧管泄漏、指针松动或损坏等情况时，应限期改正并采取有效安全措施；不能保证安全时应停止使用压力容器。",
+      "charCount": 238,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "压力表、液位计和测温仪表检查",
+        "document_type": "inspection_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "component_types": [
+          "pressure_gauge",
+          "level_gauge",
+          "temperature_instrument"
+        ],
+        "risk_types": [
+          "instrument_failure",
+          "overpressure",
+          "overtemperature",
+          "overfill"
+        ],
+        "derived_from": [
+          "TSG 21-2016"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "3de5f556969de382334ada64d757a8dc28b234d8a79d2e8935808a4e1a41c2dc",
+      "documentId": "5239a5fc5c24d2be9e1af3d67be4433f3629b56bfe18a19192ee9e5937ea52ec",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/压力表液位计测温仪表检查.md",
+      "fileName": "压力表液位计测温仪表检查.md",
+      "title": "压力表、液位计和测温仪表检查",
+      "headings": [
+        "压力表、液位计和测温仪表检查",
+        "液位计"
+      ],
+      "sectionTitle": "液位计",
+      "content": "检查液位计外观、阀件、附件和防护装置，确认指示清晰、变化合理。\n\n重点异常：\n\n- 玻璃板或玻璃管裂纹、破损；\n- 阀件固死；\n- 液位指示错误或长期不变；\n- 指示模糊；\n- 防泄漏保护装置损坏；\n- 低温环境选型或防冻措施不合适。\n\n不要仅凭单一液位信号决定进料或排料，应结合工艺平衡、现场观察和其他测点判断。",
+      "contentWithContext": "文档标题：压力表、液位计和测温仪表检查\n章节：压力表、液位计和测温仪表检查 > 液位计\n正文：检查液位计外观、阀件、附件和防护装置，确认指示清晰、变化合理。\n\n重点异常：\n\n- 玻璃板或玻璃管裂纹、破损；\n- 阀件固死；\n- 液位指示错误或长期不变；\n- 指示模糊；\n- 防泄漏保护装置损坏；\n- 低温环境选型或防冻措施不合适。\n\n不要仅凭单一液位信号决定进料或排料，应结合工艺平衡、现场观察和其他测点判断。",
+      "charCount": 157,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "压力表、液位计和测温仪表检查",
+        "document_type": "inspection_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "component_types": [
+          "pressure_gauge",
+          "level_gauge",
+          "temperature_instrument"
+        ],
+        "risk_types": [
+          "instrument_failure",
+          "overpressure",
+          "overtemperature",
+          "overfill"
+        ],
+        "derived_from": [
+          "TSG 21-2016"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "ed6c08dfdac36c1e40f1edc70aa87d2cd1911fdb360fc787bb2102323b211b9b",
+      "documentId": "5239a5fc5c24d2be9e1af3d67be4433f3629b56bfe18a19192ee9e5937ea52ec",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/压力表液位计测温仪表检查.md",
+      "fileName": "压力表液位计测温仪表检查.md",
+      "title": "压力表、液位计和测温仪表检查",
+      "headings": [
+        "压力表、液位计和测温仪表检查",
+        "测温仪表"
+      ],
+      "sectionTitle": "测温仪表",
+      "content": "检查定期校验和检修状态，确认仪表量程与实际温度范围匹配。关注远传温度与现场温度计不一致、温度突跳、长时间固定值和超过上下限等现象。",
+      "contentWithContext": "文档标题：压力表、液位计和测温仪表检查\n章节：压力表、液位计和测温仪表检查 > 测温仪表\n正文：检查定期校验和检修状态，确认仪表量程与实际温度范围匹配。关注远传温度与现场温度计不一致、温度突跳、长时间固定值和超过上下限等现象。",
+      "charCount": 65,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "压力表、液位计和测温仪表检查",
+        "document_type": "inspection_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "component_types": [
+          "pressure_gauge",
+          "level_gauge",
+          "temperature_instrument"
+        ],
+        "risk_types": [
+          "instrument_failure",
+          "overpressure",
+          "overtemperature",
+          "overfill"
+        ],
+        "derived_from": [
+          "TSG 21-2016"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "ed363eda71bbd70491e2ba04829049b3076c3f75d136ebabfe1ee299d836259a",
+      "documentId": "5239a5fc5c24d2be9e1af3d67be4433f3629b56bfe18a19192ee9e5937ea52ec",
+      "sourcePath": "special-equipment-kb-starter/02_压力容器巡检/压力表液位计测温仪表检查.md",
+      "fileName": "压力表液位计测温仪表检查.md",
+      "title": "压力表、液位计和测温仪表检查",
+      "headings": [
+        "压力表、液位计和测温仪表检查",
+        "仪表异常判断"
+      ],
+      "sectionTitle": "仪表异常判断",
+      "content": "仪表读数异常不等同于设备参数真实异常，也不能反过来认为只是仪表问题。安全做法是同时核查：\n\n- 备用或独立仪表；\n- 远传与现场读数；\n- 相邻工艺参数；\n- 取压、取样和阀门状态；\n- 通信和供电；\n- 历史趋势。\n\n在原因未确认前，应按更不利的风险情形采取防范措施。",
+      "contentWithContext": "文档标题：压力表、液位计和测温仪表检查\n章节：压力表、液位计和测温仪表检查 > 仪表异常判断\n正文：仪表读数异常不等同于设备参数真实异常，也不能反过来认为只是仪表问题。安全做法是同时核查：\n\n- 备用或独立仪表；\n- 远传与现场读数；\n- 相邻工艺参数；\n- 取压、取样和阀门状态；\n- 通信和供电；\n- 历史趋势。\n\n在原因未确认前，应按更不利的风险情形采取防范措施。",
+      "charCount": 135,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "压力表、液位计和测温仪表检查",
+        "document_type": "inspection_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "component_types": [
+          "pressure_gauge",
+          "level_gauge",
+          "temperature_instrument"
+        ],
+        "risk_types": [
+          "instrument_failure",
+          "overpressure",
+          "overtemperature",
+          "overfill"
+        ],
+        "derived_from": [
+          "TSG 21-2016"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "02_压力容器巡检"
+      }
+    },
+    {
+      "id": "d5d7bb0d337351a28c0b251ce79d47a47f940963f141667e78b87ddbca3a66a1",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡"
+      ],
+      "sectionTitle": "压力容器常见异常初步处置卡",
+      "content": "本文件用于知识库问答和演示，不代替企业操作规程、事故专项预案和现场指挥。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡\n正文：本文件用于知识库问答和演示，不代替企业操作规程、事故专项预案和现场指挥。",
+      "charCount": 36,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "7a46d7acb727c45231c0f9cc589bdbfbfb24b402fb1d50d2a9f16fa528b62377",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡",
+        "超压",
+        "识别"
+      ],
+      "sectionTitle": "识别",
+      "content": "压力超过正常控制范围、接近或超过允许使用参数，压力持续快速上升，报警或联锁动作。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡 > 超压 > 识别\n正文：压力超过正常控制范围、接近或超过允许使用参数，压力持续快速上升，报警或联锁动作。",
+      "charCount": 40,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "19a33e5a2a7542a9530a670739b526110e49c129dce98873eb6ad0dc2d1dacbe",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡",
+        "超压",
+        "初步措施"
+      ],
+      "sectionTitle": "初步措施",
+      "content": "按操作规程降低进料或热源，检查出口和放空路径，确认控制阀、联锁和安全泄放装置状态。立即报告相关负责人。\n\n不得擅自压住、堵塞或隔离正在泄放的安全阀。超过允许参数或者无法控制时，应按预案安全停车、隔离并组织人员撤离危险区域。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡 > 超压 > 初步措施\n正文：按操作规程降低进料或热源，检查出口和放空路径，确认控制阀、联锁和安全泄放装置状态。立即报告相关负责人。\n\n不得擅自压住、堵塞或隔离正在泄放的安全阀。超过允许参数或者无法控制时，应按预案安全停车、隔离并组织人员撤离危险区域。",
+      "charCount": 111,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "b70c01ff76267a153351c14e1ab05206a2633b0ad057a01b8d43a51f99bfef06",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡",
+        "超温",
+        "识别"
+      ],
+      "sectionTitle": "识别",
+      "content": "温度超过允许范围、升温速率异常，伴随压力上升、材料变色、保温层异常或气味变化。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡 > 超温 > 识别\n正文：温度超过允许范围、升温速率异常，伴随压力上升、材料变色、保温层异常或气味变化。",
+      "charCount": 39,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "f3ecff719e3c5675061f9bbcec8ed5866a6bdb489bf4276d86478b8f50d93930",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡",
+        "超温",
+        "初步措施"
+      ],
+      "sectionTitle": "初步措施",
+      "content": "按规程减少或切断热源，评估冷却方式是否安全。对于可能发生热应力、脆性破坏或剧烈反应的设备，禁止未经评估直接快速冷却。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡 > 超温 > 初步措施\n正文：按规程减少或切断热源，评估冷却方式是否安全。对于可能发生热应力、脆性破坏或剧烈反应的设备，禁止未经评估直接快速冷却。",
+      "charCount": 58,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 4,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "db240f8e937a1a0b58b7630129d76d4c340f751710aa49e50f1907236c77d17d",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡",
+        "泄漏",
+        "识别"
+      ],
+      "sectionTitle": "识别",
+      "content": "液滴、雾气、气味、嘶鸣、结霜、冲刷痕迹或气体报警。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡 > 泄漏 > 识别\n正文：液滴、雾气、气味、嘶鸣、结霜、冲刷痕迹或气体报警。",
+      "charCount": 25,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 5,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "d649d9a2e680d0390f56a4121e3dfb804d6915996d89fa78ef20ddbd1852ca54",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡",
+        "泄漏",
+        "初步措施"
+      ],
+      "sectionTitle": "初步措施",
+      "content": "立即识别介质危险性，控制火源和人员进入，佩戴规定防护用品，按预案隔离物料和能量来源。对易燃、有毒或窒息性介质，应优先警戒、通风监测和疏散。\n\n禁止带压拆卸、带压焊补或未经批准紧固连接。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡 > 泄漏 > 初步措施\n正文：立即识别介质危险性，控制火源和人员进入，佩戴规定防护用品，按预案隔离物料和能量来源。对易燃、有毒或窒息性介质，应优先警戒、通风监测和疏散。\n\n禁止带压拆卸、带压焊补或未经批准紧固连接。",
+      "charCount": 92,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 6,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "63d2f03f0e4e35ec01888feb44a48bdb170c288e6ce71d077bd8d3d20265a4c1",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡",
+        "异常振动或声响",
+        "识别"
+      ],
+      "sectionTitle": "识别",
+      "content": "设备、管道或支承出现持续增强的振动，伴随撞击、汽蚀、摩擦或周期性脉动声。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡 > 异常振动或声响 > 识别\n正文：设备、管道或支承出现持续增强的振动，伴随撞击、汽蚀、摩擦或周期性脉动声。",
+      "charCount": 36,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 7,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "5ea0e9722cd36bf04ddf9762a155347652d7bcb377b728a55952287432cb3c77",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡",
+        "异常振动或声响",
+        "初步措施"
+      ],
+      "sectionTitle": "初步措施",
+      "content": "观察是否与泵、压缩机、阀门动作、两相流或支承松动有关。振动明显增加、支承损坏、连接处泄漏或参数异常时，应降低负荷或按规程停车检查。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡 > 异常振动或声响 > 初步措施\n正文：观察是否与泵、压缩机、阀门动作、两相流或支承松动有关。振动明显增加、支承损坏、连接处泄漏或参数异常时，应降低负荷或按规程停车检查。",
+      "charCount": 65,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 8,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "5ddcbb07caf75e51c5bdf8fae2b8386659103716c54bed3dead9daa96fc84226",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡",
+        "变形、鼓包或裂纹迹象"
+      ],
+      "sectionTitle": "变形、鼓包或裂纹迹象",
+      "content": "发现鼓包、明显凹陷、异常位移、裂纹迹象或者焊缝异常时，应停止将其作为普通外观缺陷处理。应报告并组织专业检查，未查明原因和确认安全前不得自行恢复运行。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡 > 变形、鼓包或裂纹迹象\n正文：发现鼓包、明显凹陷、异常位移、裂纹迹象或者焊缝异常时，应停止将其作为普通外观缺陷处理。应报告并组织专业检查，未查明原因和确认安全前不得自行恢复运行。",
+      "charCount": 74,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 9,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "cfeb806f5d5ed48d030e648e4a7f9c81830f83b723dee50ac6e737529d8f1827",
+      "documentId": "13fd25d7fa41387ca64bbadc619a3533b25e198d77dbbda0f96969d44ed3e6ab",
+      "sourcePath": "special-equipment-kb-starter/03_异常处置/压力容器常见异常初步处置卡.md",
+      "fileName": "压力容器常见异常初步处置卡.md",
+      "title": "压力容器常见异常初步处置卡",
+      "headings": [
+        "压力容器常见异常初步处置卡",
+        "恢复运行条件"
+      ],
+      "sectionTitle": "恢复运行条件",
+      "content": "异常消失不是恢复运行的充分条件。设备发生故障或异常情况后，应完成检查、原因确认、隐患消除和必要的审批；涉及检验、维修或重大隐患的，应由具备相应资格的人员或机构确认。",
+      "contentWithContext": "文档标题：压力容器常见异常初步处置卡\n章节：压力容器常见异常初步处置卡 > 恢复运行条件\n正文：异常消失不是恢复运行的充分条件。设备发生故障或异常情况后，应完成检查、原因确认、隐患消除和必要的审批；涉及检验、维修或重大隐患的，应由具备相应资格的人员或机构确认。",
+      "charCount": 82,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 10,
+      "documentChunkCount": 11,
+      "metadata": {
+        "title": "压力容器常见异常初步处置卡",
+        "document_type": "emergency_response_guide",
+        "equipment_types": [
+          "fixed_pressure_vessel"
+        ],
+        "risk_types": [
+          "overpressure",
+          "overtemperature",
+          "leakage",
+          "abnormal_vibration",
+          "deformation"
+        ],
+        "updated_at": "2026-06-17",
+        "category": "03_异常处置"
+      }
+    },
+    {
+      "id": "ac655d63c38b14ccecfc3009a19ab18415fcd80fc31af6012e9e80aa23b2b686",
+      "documentId": "2de7f36002bd2d170298bb476f98dca51557431fa0170a8547ce23e2146f8166",
+      "sourcePath": "special-equipment-kb-starter/04_问答辅助/知识库测试问题.md",
+      "fileName": "知识库测试问题.md",
+      "title": "知识库测试问题",
+      "headings": [
+        "知识库测试问题",
+        "法规管理类"
+      ],
+      "sectionTitle": "法规管理类",
+      "content": "1. 特种设备投入使用后多久需要办理使用登记？\n2. 压力容器安全技术档案应包含哪些资料？\n3. 定期检验到期前多久应提出检验要求？\n4. 压力容器使用单位的日管控、周排查、月调度分别由谁组织？\n5. 设备发生异常后，参数恢复正常是否可以直接继续使用？",
+      "contentWithContext": "文档标题：知识库测试问题\n章节：知识库测试问题 > 法规管理类\n正文：1. 特种设备投入使用后多久需要办理使用登记？\n2. 压力容器安全技术档案应包含哪些资料？\n3. 定期检验到期前多久应提出检验要求？\n4. 压力容器使用单位的日管控、周排查、月调度分别由谁组织？\n5. 设备发生异常后，参数恢复正常是否可以直接继续使用？",
+      "charCount": 126,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "知识库测试问题",
+        "document_type": "evaluation_questions",
+        "updated_at": "2026-06-17",
+        "category": "04_问答辅助"
+      }
+    },
+    {
+      "id": "698f5190d10d464a04d99a422e69257bcdc10a19b994877844b6f37d80e4c8f9",
+      "documentId": "2de7f36002bd2d170298bb476f98dca51557431fa0170a8547ce23e2146f8166",
+      "sourcePath": "special-equipment-kb-starter/04_问答辅助/知识库测试问题.md",
+      "fileName": "知识库测试问题.md",
+      "title": "知识库测试问题",
+      "headings": [
+        "知识库测试问题",
+        "巡检类"
+      ],
+      "sectionTitle": "巡检类",
+      "content": "1. 固定式压力容器月度检查主要看什么？\n2. 安全阀日常检查包括哪些内容？\n3. 压力表封签损坏应该如何处理？\n4. 液位计读数一直不变化，可能是什么问题？\n5. 容器支座和相连管道为什么也需要检查？",
+      "contentWithContext": "文档标题：知识库测试问题\n章节：知识库测试问题 > 巡检类\n正文：1. 固定式压力容器月度检查主要看什么？\n2. 安全阀日常检查包括哪些内容？\n3. 压力表封签损坏应该如何处理？\n4. 液位计读数一直不变化，可能是什么问题？\n5. 容器支座和相连管道为什么也需要检查？",
+      "charCount": 101,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "知识库测试问题",
+        "document_type": "evaluation_questions",
+        "updated_at": "2026-06-17",
+        "category": "04_问答辅助"
+      }
+    },
+    {
+      "id": "2f8f134dc9aef0ea04902bd89aa2354216dae7102cab89225bd954366ed0c43d",
+      "documentId": "2de7f36002bd2d170298bb476f98dca51557431fa0170a8547ce23e2146f8166",
+      "sourcePath": "special-equipment-kb-starter/04_问答辅助/知识库测试问题.md",
+      "fileName": "知识库测试问题.md",
+      "title": "知识库测试问题",
+      "headings": [
+        "知识库测试问题",
+        "风险判断类"
+      ],
+      "sectionTitle": "风险判断类",
+      "content": "1. 安全阀失效但工艺压力一直正常，能否继续运行？\n2. 压力容器定期检验结论为“不符合要求”，是否属于重大事故隐患？\n3. 固定式压力容器能否临时改作移动式压力容器？\n4. 压力管道爆破片缺失是否属于重大事故隐患？\n5. 发现法兰轻微泄漏，可以直接带压紧固吗？",
+      "contentWithContext": "文档标题：知识库测试问题\n章节：知识库测试问题 > 风险判断类\n正文：1. 安全阀失效但工艺压力一直正常，能否继续运行？\n2. 压力容器定期检验结论为“不符合要求”，是否属于重大事故隐患？\n3. 固定式压力容器能否临时改作移动式压力容器？\n4. 压力管道爆破片缺失是否属于重大事故隐患？\n5. 发现法兰轻微泄漏，可以直接带压紧固吗？",
+      "charCount": 131,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "知识库测试问题",
+        "document_type": "evaluation_questions",
+        "updated_at": "2026-06-17",
+        "category": "04_问答辅助"
+      }
+    },
+    {
+      "id": "05373b5e48df2d6044c03ef79cca06cdaacfe8c43552642d1f2fee3d20a71009",
+      "documentId": "2de7f36002bd2d170298bb476f98dca51557431fa0170a8547ce23e2146f8166",
+      "sourcePath": "special-equipment-kb-starter/04_问答辅助/知识库测试问题.md",
+      "fileName": "知识库测试问题.md",
+      "title": "知识库测试问题",
+      "headings": [
+        "知识库测试问题",
+        "版本识别类"
+      ],
+      "sectionTitle": "版本识别类",
+      "content": "1. 2025年的固定式压力容器安全技术规程修订稿是否已经正式生效？\n2. 工业管道目前应引用 TSG D0001—2009 还是 TSG 31—2025？",
+      "contentWithContext": "文档标题：知识库测试问题\n章节：知识库测试问题 > 版本识别类\n正文：1. 2025年的固定式压力容器安全技术规程修订稿是否已经正式生效？\n2. 工业管道目前应引用 TSG D0001—2009 还是 TSG 31—2025？",
+      "charCount": 78,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 4,
+      "metadata": {
+        "title": "知识库测试问题",
+        "document_type": "evaluation_questions",
+        "updated_at": "2026-06-17",
+        "category": "04_问答辅助"
+      }
+    },
+    {
+      "id": "7027b46a9080332e23f269f2f130282cadda72ef596b429979a030c1535a3bf9",
+      "documentId": "3cec7f653bb6093d4f7755ca3ff086b86d5d733fd0beafde63ce4a82b4672a91",
+      "sourcePath": "special-equipment-kb-starter/04_问答辅助/知识库回答规则.md",
+      "fileName": "知识库回答规则.md",
+      "title": "特种设备知识库回答规则",
+      "headings": [
+        "特种设备知识库回答规则",
+        "基本格式"
+      ],
+      "sectionTitle": "基本格式",
+      "content": "回答尽量按以下顺序组织：\n\n1. 结论；\n2. 依据；\n3. 建议动作；\n4. 需要人工确认的信息；\n5. 引用来源。",
+      "contentWithContext": "文档标题：特种设备知识库回答规则\n章节：特种设备知识库回答规则 > 基本格式\n正文：回答尽量按以下顺序组织：\n\n1. 结论；\n2. 依据；\n3. 建议动作；\n4. 需要人工确认的信息；\n5. 引用来源。",
+      "charCount": 59,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 0,
+      "documentChunkCount": 5,
+      "metadata": {
+        "title": "特种设备知识库回答规则",
+        "document_type": "llm_answer_policy",
+        "updated_at": "2026-06-17",
+        "category": "04_问答辅助"
+      }
+    },
+    {
+      "id": "1cf2677d29c91ded9a27ea39ec7b94930520bd85db1ef7e61918632aa8733607",
+      "documentId": "3cec7f653bb6093d4f7755ca3ff086b86d5d733fd0beafde63ce4a82b4672a91",
+      "sourcePath": "special-equipment-kb-starter/04_问答辅助/知识库回答规则.md",
+      "fileName": "知识库回答规则.md",
+      "title": "特种设备知识库回答规则",
+      "headings": [
+        "特种设备知识库回答规则",
+        "证据要求"
+      ],
+      "sectionTitle": "证据要求",
+      "content": "没有检索到依据时，不得凭常识编造条款编号、检验周期、压力数值或者处罚结论。\n\n引用法规时应区分：\n\n- 法律明确要求；\n- TSG 明确要求；\n- 国家标准判定条款；\n- 本知识库根据规范整理的工程建议。",
+      "contentWithContext": "文档标题：特种设备知识库回答规则\n章节：特种设备知识库回答规则 > 证据要求\n正文：没有检索到依据时，不得凭常识编造条款编号、检验周期、压力数值或者处罚结论。\n\n引用法规时应区分：\n\n- 法律明确要求；\n- TSG 明确要求；\n- 国家标准判定条款；\n- 本知识库根据规范整理的工程建议。",
+      "charCount": 102,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 1,
+      "documentChunkCount": 5,
+      "metadata": {
+        "title": "特种设备知识库回答规则",
+        "document_type": "llm_answer_policy",
+        "updated_at": "2026-06-17",
+        "category": "04_问答辅助"
+      }
+    },
+    {
+      "id": "d8d054142bfd010659743790e847ca1a4288882c05637d7b78960202d5f6c69b",
+      "documentId": "3cec7f653bb6093d4f7755ca3ff086b86d5d733fd0beafde63ce4a82b4672a91",
+      "sourcePath": "special-equipment-kb-starter/04_问答辅助/知识库回答规则.md",
+      "fileName": "知识库回答规则.md",
+      "title": "特种设备知识库回答规则",
+      "headings": [
+        "特种设备知识库回答规则",
+        "高风险问题"
+      ],
+      "sectionTitle": "高风险问题",
+      "content": "出现以下主题时，应提示用户联系单位安全管理负责人、检验机构或专业技术人员：\n\n- 是否可以继续运行；\n- 是否构成重大事故隐患；\n- 是否需要停用、报废或检验；\n- 安全阀整定压力；\n- 容器改造、重大修理；\n- 带压堵漏、带压紧固；\n- 有毒、易燃、易爆、强腐蚀介质泄漏；\n- 超设计使用年限继续使用。",
+      "contentWithContext": "文档标题：特种设备知识库回答规则\n章节：特种设备知识库回答规则 > 高风险问题\n正文：出现以下主题时，应提示用户联系单位安全管理负责人、检验机构或专业技术人员：\n\n- 是否可以继续运行；\n- 是否构成重大事故隐患；\n- 是否需要停用、报废或检验；\n- 安全阀整定压力；\n- 容器改造、重大修理；\n- 带压堵漏、带压紧固；\n- 有毒、易燃、易爆、强腐蚀介质泄漏；\n- 超设计使用年限继续使用。",
+      "charCount": 152,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 2,
+      "documentChunkCount": 5,
+      "metadata": {
+        "title": "特种设备知识库回答规则",
+        "document_type": "llm_answer_policy",
+        "updated_at": "2026-06-17",
+        "category": "04_问答辅助"
+      }
+    },
+    {
+      "id": "1027567deb80719d294eacf9b0856530f2c88f2e8343b85cd9ef7a2c4d36a517",
+      "documentId": "3cec7f653bb6093d4f7755ca3ff086b86d5d733fd0beafde63ce4a82b4672a91",
+      "sourcePath": "special-equipment-kb-starter/04_问答辅助/知识库回答规则.md",
+      "fileName": "知识库回答规则.md",
+      "title": "特种设备知识库回答规则",
+      "headings": [
+        "特种设备知识库回答规则",
+        "禁止回答方式"
+      ],
+      "sectionTitle": "禁止回答方式",
+      "content": "不要回答：\n\n- “看起来问题不大，可以继续用”；\n- “只要压力恢复正常就安全了”；\n- “安全阀轻微泄漏可以先堵住”；\n- “检验超期几天没有关系”；\n- “根据经验把整定压力调高一点”。",
+      "contentWithContext": "文档标题：特种设备知识库回答规则\n章节：特种设备知识库回答规则 > 禁止回答方式\n正文：不要回答：\n\n- “看起来问题不大，可以继续用”；\n- “只要压力恢复正常就安全了”；\n- “安全阀轻微泄漏可以先堵住”；\n- “检验超期几天没有关系”；\n- “根据经验把整定压力调高一点”。",
+      "charCount": 96,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 3,
+      "documentChunkCount": 5,
+      "metadata": {
+        "title": "特种设备知识库回答规则",
+        "document_type": "llm_answer_policy",
+        "updated_at": "2026-06-17",
+        "category": "04_问答辅助"
+      }
+    },
+    {
+      "id": "fc33175acd25ad19feb01953b6e64f7f4250117ab97d03d006a87da4c34df1fa",
+      "documentId": "3cec7f653bb6093d4f7755ca3ff086b86d5d733fd0beafde63ce4a82b4672a91",
+      "sourcePath": "special-equipment-kb-starter/04_问答辅助/知识库回答规则.md",
+      "fileName": "知识库回答规则.md",
+      "title": "特种设备知识库回答规则",
+      "headings": [
+        "特种设备知识库回答规则",
+        "推荐提示语"
+      ],
+      "sectionTitle": "推荐提示语",
+      "content": "“根据现有资料，该情况具有较高风险，但能否继续使用需要结合设备允许参数、检验报告、设计文件和现场检查结果，由使用单位安全管理负责人及相应专业人员确认。”",
+      "contentWithContext": "文档标题：特种设备知识库回答规则\n章节：特种设备知识库回答规则 > 推荐提示语\n正文：“根据现有资料，该情况具有较高风险，但能否继续使用需要结合设备允许参数、检验报告、设计文件和现场检查结果，由使用单位安全管理负责人及相应专业人员确认。”",
+      "charCount": 76,
+      "sectionChunkIndex": 0,
+      "sectionChunkCount": 1,
+      "documentChunkIndex": 4,
+      "documentChunkCount": 5,
+      "metadata": {
+        "title": "特种设备知识库回答规则",
+        "document_type": "llm_answer_policy",
+        "updated_at": "2026-06-17",
+        "category": "04_问答辅助"
+      }
+    }
+  ]
+}
