@@ -21,6 +21,10 @@ function getNumberEnv(name: string, fallback: number): number {
 }
 
 export const env = {
+  dashscopeApiKey: getRequiredEnv('DASHSCOPE_API_KEY'),
+  dashscopeBaseUrl:
+    process.env.DASHSCOPE_BASE_URL ?? 'https://dashscope.aliyuncs.com/compatible-mode/v1',
+  dashscopeTimeoutMs: getNumberEnv('DASHSCOPE_TIMEOUT_MS', 30000),
   deepseekApiKey: getRequiredEnv('DEEPSEEK_API_KEY'),
   deepseekBaseUrl: process.env.DEEPSEEK_BASE_URL ?? 'https://api.deepseek.com',
   deepseekDefaultModel: process.env.DEEPSEEK_DEFAULT_MODEL ?? 'deepseek-v4-flash',

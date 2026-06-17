@@ -7,6 +7,7 @@
     "postinstall": "prisma generate",
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
+    "kb:build": "node --import tsx src/scripts/buildKnowledgeBase.ts",
     "start": "node dist/src/server.js",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",
@@ -31,8 +32,11 @@
     "better-sqlite3": "^12.10.0",
     "dotenv": "^17.4.2",
     "fastify": "^5.8.5",
+    "gray-matter": "^4.0.3",
     "openai": "^6.42.0",
     "prisma": "^7.8.0",
+    "remark-parse": "^11.0.0",
+    "unified": "^11.0.5",
     "zod": "^4.4.3"
   },
   "devDependencies": {
