@@ -8,6 +8,7 @@
     "dev": "tsx watch src/server.ts",
     "build": "tsc",
     "kb:build": "node --import tsx src/scripts/buildKnowledgeBase.ts",
+    "kb:embed": "node --import tsx src/scripts/buildKnowledgeEmbeddings.ts",
     "start": "node dist/src/server.js",
     "prisma:generate": "prisma generate",
     "prisma:migrate": "prisma migrate dev",

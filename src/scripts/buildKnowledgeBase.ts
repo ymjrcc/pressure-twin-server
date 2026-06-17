@@ -1,21 +1,26 @@
+import 'dotenv/config'
 import { createHash } from 'node:crypto'
 import { mkdir, readdir, readFile, writeFile } from 'node:fs/promises'
 import path from 'node:path'
 import matter from 'gray-matter'
 import { unified } from 'unified'
 import remarkParse from 'remark-parse'
+import {
+  CHUNKS_OUTPUT_FILE,
+  type ChunksOutput,
+  type FrontmatterData,
+  type KnowledgeChunk,
+  writeEmbeddingsOutput,
+} from './knowledgeEmbeddings.js'
 
 const KNOWLEDGE_ROOT = path.resolve(process.cwd(), 'knowledge')
 const OUTPUT_DIR = path.join(KNOWLEDGE_ROOT, 'build')
-const OUTPUT_FILE = path.join(OUTPUT_DIR, 'chunks.json')
 const TARGET_MIN_CHARS = 500
 const TARGET_MAX_CHARS = 900
 const OVERLAP_CHARS = 120
 const INCLUDE_QA_HELPERS = true
 
 type JsonValue = string | number | boolean | null | JsonValue[] | { [key: string]: JsonValue }
-
-type FrontmatterData = Record<string, JsonValue>
 
 type AstNode = {
   type: string
@@ -33,32 +38,6 @@ type Section = {
   blocks: string[]
 }
 
-type KnowledgeChunk = {
-  id: string
-  documentId: string
-  sourcePath: string
-  fileName: string
-  title: string
-  headings: string[]
-  sectionTitle: string
-  content: string
-  contentWithContext: string
-  charCount: number
-  sectionChunkIndex: number
-  sectionChunkCount: number
-  documentChunkIndex: number
-  documentChunkCount: number
-  metadata: FrontmatterData
-}
-
-type BuildOutput = {
-  generatedAt: string
-  sourceRoot: string
-  documentCount: number
-  chunkCount: number
-  chunks: KnowledgeChunk[]
-}
-
 async function main() {
   const sourceFiles = await collectMarkdownFiles(KNOWLEDGE_ROOT)
   const chunks: KnowledgeChunk[] = []
@@ -70,7 +49,7 @@ async function main() {
 
   await mkdir(OUTPUT_DIR, { recursive: true })
 
-  const output: BuildOutput = {
+  const output: ChunksOutput = {
     generatedAt: new Date().toISOString(),
     sourceRoot: path.relative(process.cwd(), KNOWLEDGE_ROOT),
     documentCount: sourceFiles.length,
@@ -78,10 +57,12 @@ async function main() {
     chunks,
   }
 
-  await writeFile(OUTPUT_FILE, `${JSON.stringify(output, null, 2)}\n`, 'utf8')
+  await writeFile(CHUNKS_OUTPUT_FILE, `${JSON.stringify(output, null, 2)}\n`, 'utf8')
 
-  console.log(`Knowledge base build complete: ${chunks.length} chunks from ${sourceFiles.length} documents`)
-  console.log(path.relative(process.cwd(), OUTPUT_FILE))
+  console.log(`Knowledge chunks built: ${chunks.length} chunks from ${sourceFiles.length} documents`)
+  console.log(path.relative(process.cwd(), CHUNKS_OUTPUT_FILE))
+
+  await writeEmbeddingsOutput(chunks, path.relative(process.cwd(), KNOWLEDGE_ROOT))
 }
 
 async function collectMarkdownFiles(rootDir: string): Promise<string[]> {
